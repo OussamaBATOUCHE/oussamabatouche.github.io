@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-03-10
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+<a href='https://uroweb.org/education-events/38th-annual-eau-congress'>EAU 2023</a>: Conference presentation

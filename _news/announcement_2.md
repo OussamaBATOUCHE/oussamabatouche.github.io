@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: HEALTHINF 2024 - Conference presentation
+date: 2024-02-29 
 inline: false
 related_posts: false
 ---

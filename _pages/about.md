@@ -19,7 +19,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am PhD student in computational data analysis at University of Helsinki. Presently, I am working at the Helsinki Urological Cancer Center (<a href='https://www.hucc.fi/'>HUCC<a/>), where we are focused on furthering both the clinical and academic elements of urological cancer care at HUS Helsinki University Hospital and Helsinki University.<br /><br />
+I am PhD student in computational data analysis at <a href='https://www.helsinki.fi/en
+'>University of Helsinki</a>. Presently, I am working at the Helsinki Urological Cancer Center (<a href='https://www.hucc.fi/'>HUCC</a>), where we are focused on furthering both the clinical and academic elements of urological cancer care at <a href='https://www.hus.fi/en'>HUS Helsinki University Hospital</a> and <a href='https://www.helsinki.fi/en'>University of Helsinki</a>. 
+
+<br />
 
 Within this role, our team is actively involved in the development of innovative methodologies to analyse and enhance existing clinical practices related to Prostate Cancer (PCa) treatment. Our primary objective is to prevent unnecessary treatment and overdiagnosis. Moreover, my PhD thesis revolves around designing, creating, and utilizing AI/ML models to profile PCa and predict its outcomes.
 
