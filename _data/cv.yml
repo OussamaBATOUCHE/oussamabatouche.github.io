@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Abderrahim Oussama Batouche
     - name: Date of Birth
-      value: 14th March 1879
+      value: July 12th, 1996
     - name: Languages
-      value: English, German
+      value: Arabic, English, French
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Helsinki, Helsinki, Finland
+      year: 2025
       description:
         - Description 1.
         - Description 2.
@@ -21,12 +21,18 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Master's
+      institution: University of Science and Technology Houari Boumediene
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Master's of Data Science
+        - Major in 'Bioinformatics'
+    - title: Bachelor's
+      institution: University of Science and Technology Houari Boumediene
+      year: 2018
+      description:
+        - Bachelor's of Mathematics and Computer Science
+        - Major in 'Information Systems and Software Engineering'
 
 - title: Experience
   type: time_table
