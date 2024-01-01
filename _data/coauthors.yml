@@ -1,3 +1,27 @@
+# Mine
+
+"Batouche":
+  - firstname: ["Abderrahim Oussama"]
+    url: https://scholar.google.com/citations?user=lT-nAOMAAAAJ&hl=en
+
+"Czeizler":
+  - firstname: ["Eugen"]
+    url: https://scholar.google.com/citations?user=Bc5R-AQAAAAJ&hl=en
+
+"Koskinen":
+  - firstname: ["Miika"]
+    url: https://scholar.google.com/citations?user=krA8wVcAAAAJ&hl=en
+
+"Rannikko":
+  - firstname: ["Antti Sakari"]
+    url: https://scholar.google.com/citations?user=2IIy7okAAAAJ&hl=en
+
+"Mirtti":
+  - firstname: ["Tuomas"]
+    url: https://scholar.google.com/citations?hl=en&user=vadxRpMAAAAJ
+
+
+# Template
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
@@ -32,3 +56,4 @@
 "Planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
