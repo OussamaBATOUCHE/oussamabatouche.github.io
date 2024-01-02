@@ -42,12 +42,12 @@
       institution: University of Helsinki, Finland
       year: 2022 - NOW
 
-    - title: Visiting Student
-      institution: King Abdullah University of Science and Technology "KAUST", Thuwal, Saudi Arabia
-      year: Feb 2024
-      description:
-        - Research visit to the Bayesian Computational Statistics & Modeling Group lead by <a href='https://scholar.google.com/citations?user=VJOn_ZkAAAAJ&hl=en'>Prof. HÅVARD RUE</a>
-        - The aim is to collaborate on Finnish hospital data and apply Joint models with supervising of prostdoctoral fellow <a href='https://scholar.google.com/citations?user=qAouGLIAAAAJ&hl=en'>Denis Rustand</a>.
+    # - title: Visiting Student
+    #   institution: King Abdullah University of Science and Technology "KAUST", Thuwal, Saudi Arabia
+    #   year: Feb 2024
+    #   description:
+    #     - Research visit to the Bayesian Computational Statistics & Modeling Group lead by <a href='https://scholar.google.com/citations?user=VJOn_ZkAAAAJ&hl=en'>Prof. HÅVARD RUE</a>
+    #     - The aim is to collaborate on Finnish hospital data and apply Joint models with supervising of prostdoctoral fellow <a href='https://scholar.google.com/citations?user=qAouGLIAAAAJ&hl=en'>Denis Rustand</a>.
 
     - title: Research Assistant
       institution: Aalto University, Espoo, Finland
