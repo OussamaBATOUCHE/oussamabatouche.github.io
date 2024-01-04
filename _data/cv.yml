@@ -16,8 +16,8 @@
       year: In progress
       description:
         - The aim of my Phd is to develop computational methods to avoid prostate cancer overtreatment and overdiagnosis.
-        - I'm using HUS Datalake which prives an image of the Finnish EHRs data.
-        - title: Computational methods for prostate cancer profiling and outcome prediction.
+        - I'm using HUS Datalake which provides an image of the Finnish EHRs data.
+        - title: Computational methods for Prostate Cancer profiling and outcome prediction.
           contents:
             - Clinical data mining 
             - Statistical modeling
@@ -27,13 +27,13 @@
       year: 2020
       description:
         - Master's of Data Science
-        - Major in 'Bioinformatics'
+        - Major in "Bioinformatics"
     - title: Bachelor's
       institution: University of Science and Technology Houari Boumediene
       year: 2018
       description:
         - Bachelor's of Mathematics and Computer Science
-        - Major in 'Information Systems and Software Engineering'
+        - Major in "Information Systems and Software Engineering"
 
 - title: Experience
   type: time_table
@@ -53,7 +53,7 @@
       institution: Aalto University, Espoo, Finland
       year: 2021
       description: 
-        - I was involved in the South-East Finland – Russian cross-border collaboration project INFOSPHERE. His task included the development of a prototype of a face recognition software runnable on the cloud.
+        - I was involved in the South-East Finland – Russian cross-border collaboration project INFOSPHERE. My task included the development of a prototype of a face recognition software runnable on the cloud.
 
     - title: Intern
       institution: Aalto University, Espoo, Finland
@@ -79,7 +79,7 @@
         - Joint models
     - title: AI/ML 
       items:
-        - Supervised/Unsupervised modeling
+        - Supervised/Unsupervised learning
 
 - title: Other Interests
   type: list
