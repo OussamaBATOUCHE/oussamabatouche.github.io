@@ -2,8 +2,8 @@
 layout: page
 title: JUNCTION 21
 description: Dynamic visualisation of key KPIs for energy inefficiency from raw data of Elisa based on data analysis.
-img: assets/img/projects/hck_junction_21/me_junction_21.jpeg
-importance: 3
+img: assets/img/projects/hck_junction_21/junc_21_cover.jpeg
+importance: 2
 category: Hackathon
 giscus_comments: true
 ---

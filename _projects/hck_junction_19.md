@@ -1,9 +1,9 @@
 ---
 layout: page
 title: JUNCTION 19
-description: Easy 3D Collab - Cloud-based real-time radiation therapy plan review
-img: assets/img/projects/hck_junction_19/varian.jpeg
-importance: 2
+description: Easy 3D Collab - it's a Cloud-based real-time radiation therapy plan-review system developed for Varian.
+img: assets/img/projects/hck_junction_19/junc_19_cover.jpeg
+importance: 3
 category: Hackathon
 giscus_comments: true
 ---

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: INFOSPHERE
-description: Finnish-Russian collaboration on Face recognition system
+description: Finnish-Russian collaboration on Face recognition system ruynning on the cloud.
 img: assets/img/projects/rsrch_face_reco/face_reco.png
 importance: 3
 category: Research
