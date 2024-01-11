@@ -8,3 +8,7 @@
 "arXiv":
   url: https://arxiv.org/
   color: "#b31b1b"
+
+"medRxiv":
+  url: https://medrxiv.org/
+  color: "#0F4C92"

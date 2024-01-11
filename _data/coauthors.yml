@@ -21,6 +21,14 @@
     url: https://scholar.google.com/citations?hl=en&user=vadxRpMAAAAJ
 
 
+"Vickers":
+  - firstname: ["Julian Andrew" , "Andrew"]
+    url: https://scholar.google.com/citations?user=-cTxxCUAAAAJ&hl=en
+
+"Erickson":
+  - firstname: ["Andrew"]
+    url: https://scholar.google.com/citations?user=VwBHe0YAAAAJ&hl=en
+
 # Template
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
