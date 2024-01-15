@@ -2,18 +2,18 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Batouche AO, Personal website # the website title (if blank, full name will be used instead)
 first_name: Abderrahim Oussama
 middle_name: 
 last_name: Batouche
 email: Abderrahim.batouche@Helsinki.Fi
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website for Abderrahim Oussama Batouche, PhD student at University of Helsinki
 footer_text: >
 keywords: Data science, Bioinformatics  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: #️⃣  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: /assets/img/logo.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://oussamabatouche.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
