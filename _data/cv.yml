@@ -47,7 +47,7 @@
       year: Feb 2024
       description:
         - Research visit to the Bayesian Computational Statistics & Modeling Group lead by <a href='https://scholar.google.com/citations?user=VJOn_ZkAAAAJ&hl=en'>Prof. HÅVARD RUE</a>
-        - The aim is to collaborate on Finnish hospital data and apply INLA Joint models with supervising of prostdoctoral fellow <a href='https://scholar.google.com/citations?user=qAouGLIAAAAJ&hl=en'>Denis Rustand</a>.
+        - The aim is to collaborate on Finnish hospital data and use INLA Joint library to build joint survival models. Supervised by prostdoctoral fellow <a href='https://scholar.google.com/citations?user=qAouGLIAAAAJ&hl=en'>Denis Rustand</a>.
 
     - title: Research Assistant
       institution: Aalto University, Espoo, Finland

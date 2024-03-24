@@ -12,3 +12,8 @@
 "medRxiv":
   url: https://medrxiv.org/
   color: "#0F4C92"
+
+
+"biostec":
+  url: https://biostec.scitevents.org/
+  color: "#6a80a6"
