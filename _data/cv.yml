@@ -42,6 +42,13 @@
       institution: University of Helsinki, Finland
       year: 2022 - NOW
 
+    # - title: Visiting Student
+    #   institution: Emory University, Atlanta, GA
+    #   year: May 2024
+    #   description:
+    #     - Research visit to the Madabhushi Lab lead by <a href='https://scholar.google.com/citations?user=deMrrCkAAAAJ&hl=en'>Prof. Anant Madabhushi</a>
+    #     - The aim is to validate features extraction model on Helsinki's PCa pathology images, possible BCR prediction, and grade upgrading on prostatectomy GG.
+    
     - title: Visiting Student
       institution: King Abdullah University of Science and Technology "KAUST", Thuwal, Saudi Arabia
       year: Feb 2024

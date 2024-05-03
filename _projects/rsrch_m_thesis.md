@@ -3,7 +3,7 @@ layout: page
 title: Master Thesis
 description: Object tracking based on Real Time video streaming for autonomous vehicles.
 img: assets/img/projects/rsrch_m_thesis/od.png
-importance: 3
+importance: 4
 category: Research
 giscus_comments: true
 ---
