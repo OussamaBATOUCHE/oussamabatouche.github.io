@@ -15,9 +15,8 @@
       institution: University of Helsinki, Helsinki, Finland
       year: In progress
       description:
-        - The aim of my Phd is to develop computational methods to avoid prostate cancer overtreatment and overdiagnosis.
-        - I'm using HUS Datalake which provides an image of the Finnish EHRs data.
-        - title: Computational methods for Prostate Cancer profiling and outcome prediction.
+        # - I'm developing computational methods to avoid <a href='https://en.wikipedia.org/wiki/Prostate_cancer'>Prostate cancer</a> overtreatment and overdiagnosis, using Helsinki University Hospital data.
+        - title: Computational methods for <a href='https://en.wikipedia.org/wiki/Prostate_cancer'>Prostate Cancer</a> profiling and outcome prediction.
           contents:
             - Clinical data mining 
             - Statistical modeling
@@ -42,19 +41,19 @@
       institution: University of Helsinki, Finland
       year: 2022 - NOW
 
-    # - title: Visiting Student
-    #   institution: Emory University, Atlanta, GA
-    #   year: May 2024
-    #   description:
-    #     - Research visit to the Madabhushi Lab lead by <a href='https://scholar.google.com/citations?user=deMrrCkAAAAJ&hl=en'>Prof. Anant Madabhushi</a>
-    #     - The aim is to validate features extraction model on Helsinki's PCa pathology images, possible BCR prediction, and grade upgrading on prostatectomy GG.
+    - title: Visiting Fellow
+      institution: Georgia Tech & Emory University, Atlanta, GA
+      year: May 2024
+      description:
+        - Research visit to <a href='https://scholar.google.com/citations?user=deMrrCkAAAAJ&hl=en'>Prof. Anant Madabhushi</a> <a href="https://med.emory.edu/departments/radiology/research/research-labs/madabhushi-lab/index.html">Lab</a>.
+        - We worked on a features extraction model for digital pathology images, for BCR prediction, treatment efficiency, and grade upgrading on prostatectomies for PCa.
     
     - title: Visiting Student
       institution: King Abdullah University of Science and Technology "KAUST", Thuwal, Saudi Arabia
       year: Feb 2024
       description:
-        - Research visit to the Bayesian Computational Statistics & Modeling Group lead by <a href='https://scholar.google.com/citations?user=VJOn_ZkAAAAJ&hl=en'>Prof. HÅVARD RUE</a>
-        - The aim is to collaborate on Finnish hospital data and use INLA Joint library to build joint survival models. Supervised by prostdoctoral fellow <a href='https://scholar.google.com/citations?user=qAouGLIAAAAJ&hl=en'>Denis Rustand</a>.
+        - Research visit to the <a href="https://cemse.kaust.edu.sa/bayescomp">Bayesian Computational Statistics & Modeling Group</a> lead by <a href='https://scholar.google.com/citations?user=VJOn_ZkAAAAJ&hl=en'>Prof. Håavard Rue</a>
+        - I was trained on how use INLA Joint library to build joint survival models. Supervised by prostdoctoral fellow <a href='https://scholar.google.com/citations?user=qAouGLIAAAAJ&hl=en'>Denis Rustand</a>.
 
     - title: Research Assistant
       institution: Aalto University, Espoo, Finland
