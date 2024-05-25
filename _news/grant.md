@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
- 🎉 Travel Grant awarded: University of Helsinki Travel Support Call 2024!
+🎉 Travel Grant awarded: University of Helsinki Travel Support Call 2024!
