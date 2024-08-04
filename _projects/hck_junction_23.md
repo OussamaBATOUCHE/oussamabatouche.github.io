@@ -4,7 +4,7 @@ title: JUNCTION 23
 description: Stainless Hill . We used custom GPTs to make predictions about steel price, news impact on market and patent development
 img: assets/img/projects/hck_junction_23/junc_23_cover.jpeg
 importance: 1
-category: Hackathon
+category: Hackathons
 giscus_comments: true
 ---
 

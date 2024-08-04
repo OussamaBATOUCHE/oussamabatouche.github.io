@@ -4,7 +4,7 @@ title: My Teeth
 description: Computer software for dantist clinic managment.
 img: assets/img/projects/p1/my_teeth.jpg
 importance: 2
-category: Fun
+category: Personal
 giscus_comments: true
 ---
 
