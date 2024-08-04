@@ -2,7 +2,7 @@
 layout: page
 title: My Teeth
 description: Computer software for dantist clinic managment.
-img: assets/img/3.jpg
+img: assets/img/projects/p1/my_teeth.jpg
 importance: 2
 category: Fun
 giscus_comments: true

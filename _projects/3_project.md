@@ -1,8 +1,8 @@
 ---
 layout: page
 title: i2b SPA
-description: The official company website for i2b SPA.
-img: assets/img/projects/p3/i2b.png
+description: The official website of i2b SPA company.
+img: assets/img/projects/p3/min_i2b.png
 redirect: https://i2b-dz.com/
 importance: 3
 category: Work

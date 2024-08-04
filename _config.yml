@@ -101,7 +101,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  If needed, please reach me via email.
+  Email remains the best way to reach out!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -117,8 +117,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: batouche-blog # blog_name will be displayed in your blog page
+blog_description: My thoughts on my ourny in academia and industies.
 permalink: /blog/:year/:title/
 
 # Pagination
