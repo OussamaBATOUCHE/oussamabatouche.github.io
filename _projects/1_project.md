@@ -10,7 +10,7 @@ giscus_comments: true
 
 My teeth is a computer software, the first one that I've entirely designed and developed by myself. The idea came to my mind while visiting a dentist clinic in Algiers. At that time, I was still a bachelor's student and had just learned how to use <a href='https://windev.com/'>Windev</a>.
 
-Initially, I revisited the clinic and inquired whether they would be interested in purchasing software designed to manage their patients' documents, visits, and appointments. The answer was YES.
+Initially, I visited the clinic and inquired whether they would be interested in purchasing software designed to manage their patients' documents, visits, and appointments. The answer was YES.
 
 I dedicated two months of my summer vacation to working on this project and delivered the first version to the client. Subsequently, I visited various clinics, presenting my product, and successfully sold a couple of copies.
 
