@@ -3,8 +3,8 @@ layout: page
 title: My Teeth
 description: Computer software for dantist clinic managment.
 img: assets/img/projects/p1/my_teeth.jpg
-importance: 2
-category: Personal
+importance: 20
+category: Software & Web dev
 giscus_comments: true
 ---
 
@@ -15,7 +15,6 @@ Initially, I visited the clinic and inquired whether they would be interested in
 I dedicated two months of my summer vacation to working on this project and delivered the first version to the client. Subsequently, I visited various clinics, presenting my product, and successfully sold a couple of copies.
 
 This marked my initial entry into the software development market.
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

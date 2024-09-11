@@ -1,11 +1,11 @@
 # Mine
 
 "Batouche":
-  - firstname: ["Abderrahim Oussama"]
+  - firstname: ["Abderrahim Oussama", "Oussama", "Abderrahim"]
     url: https://scholar.google.com/citations?user=lT-nAOMAAAAJ&hl=en
 
 "Czeizler":
-  - firstname: ["Eugen"]
+  - firstname: ["Eugen", "E."]
     url: https://scholar.google.com/citations?user=Bc5R-AQAAAAJ&hl=en
 
 "Koskinen":
@@ -13,21 +13,33 @@
     url: https://scholar.google.com/citations?user=krA8wVcAAAAJ&hl=en
 
 "Rannikko":
-  - firstname: ["Antti Sakari"]
+  - firstname: ["Antti Sakari", "A.", "A.S", "Antti S."]
     url: https://scholar.google.com/citations?user=2IIy7okAAAAJ&hl=en
 
 "Mirtti":
-  - firstname: ["Tuomas"]
+  - firstname: ["Tuomas", "T."]
     url: https://scholar.google.com/citations?hl=en&user=vadxRpMAAAAJ
 
 
 "Vickers":
-  - firstname: ["Julian Andrew" , "Andrew"]
+  - firstname: ["Julian Andrew" , "Andrew", "A."]
     url: https://scholar.google.com/citations?user=-cTxxCUAAAAJ&hl=en
 
 "Erickson":
-  - firstname: ["Andrew"]
+  - firstname: ["Andrew", "Andrew M."]
     url: https://scholar.google.com/citations?user=VwBHe0YAAAAJ&hl=en
+
+"Shadbahr":
+  - firstname: ["Tolou", "T."]
+    url: https://scholar.google.com/citations?user=pCbApKUAAAAJ&hl=en
+
+"Rustand":
+  - firstname: ["Denis", "D."]
+    url: https://scholar.google.com/citations?user=qAouGLIAAAAJ&hl=en
+
+"Rue":
+  - firstname: ["Haavard", "Håvard", "H."]
+    url: https://scholar.google.com/citations?user=VJOn_ZkAAAAJ&hl=en
 
 # Template
 "Adams":
