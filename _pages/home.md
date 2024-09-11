@@ -21,10 +21,9 @@ I am a PhD student in computational data analysis at the <a href='https://www.he
 '>University of Helsinki</a> and part of the Helsinki Urological
 Cancer Center (<a href='https://www.hucc.fi/'>HUCC</a>). At HUCC, I am actively involved in the development of innovative methodologies to analyse and enhance existing clinical practices related to Prostate Cancer (PCa) treatment at <a href='https://www.hus.fi/en'>Helsinki University Hospital (HUS)</a>. Our primary objective is to prevent
 unnecessary treatment and overdiagnosis.
+
 My PhD thesis revolves around designing, creating, and utilising statistics and AI models to profile PCa and predict its
 outcomes.
-
-My PhD thesis revolves around designing, creating, and utilizing statistics and AI models to profile PCa and predict its outcomes.
 
 <br /> I'm mainly interested in:
 
