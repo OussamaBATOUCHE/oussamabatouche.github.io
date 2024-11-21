@@ -1,7 +1,7 @@
 # Mine
 
 "Batouche":
-  - firstname: ["Abderrahim Oussama", "Oussama", "Abderrahim"]
+  - firstname: ["Abderrahim Oussama", "Oussama", "Abderrahim", "Abderrahim-Oussama"]
     url: https://scholar.google.com/citations?user=lT-nAOMAAAAJ&hl=en
 
 "Czeizler":
@@ -13,7 +13,7 @@
     url: https://scholar.google.com/citations?user=krA8wVcAAAAJ&hl=en
 
 "Rannikko":
-  - firstname: ["Antti Sakari", "A.", "A.S", "Antti S."]
+  - firstname: ["Antti Sakari", "A.", "A.S", "Antti S.", "Antti"]
     url: https://scholar.google.com/citations?user=2IIy7okAAAAJ&hl=en
 
 "Mirtti":
@@ -40,6 +40,10 @@
 "Rue":
   - firstname: ["Haavard", "Håvard", "H."]
     url: https://scholar.google.com/citations?user=VJOn_ZkAAAAJ&hl=en
+
+"Pitkänen":
+  - firstname: ["Esa"]
+    url: https://scholar.google.com/citations?user=XPnXAOEAAAAJ&hl=en
 
 # Template
 "Adams":
