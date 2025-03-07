@@ -1,18 +1,20 @@
 ---
 layout: page
-title: Joint Models
-description: to assess the relationship between time to treatment and BCR in PCa patients
-img: assets/img/projects/rsrch_phd_jointmodel/jm.jpg
+title: AI in Pathology
+description: to extract WSIs predictive features for PCa upgrading classification.
+img: assets/img/projects/rsrch_phd_aidigpath/adp.jpg
 importance: 1
 category: Research
 giscus_comments: true
 ---
 
-This is the third research project during my PhD studies. Most of the methodological work was done at KAUST under supervision of Denis Rustand,phd, and Prof. Haavard Rue.
+This is the forth research project during my PhD studies. Most of the methodological work was done in collaboration with Madabushi Lab at GeorgiaTech and Emory university, under supervision of Prof. Madabushi and my PhD supervisors.
 
-This work was accepted for presentation at <a href='https://baltic.uroweb.org/'>Baltic-24 EAU</a> meeting (May 2024, Tallinn, Estonia), the Abstract is below, and full paper will be added later!
+This work was accepted for presentation at <a href='https://conferences.asco.org/gu/attend'>ASCO GU 25</a> meeting (Feb 2025, San Francisco, CA).
 
-<center> 
+Abstract here: <a href='https://ascopubs.org/doi/pdf/10.1200/JCO.2025.43.5_suppl.329'>Click</a>
+
+<!-- <center>
 <h2 style="color: orange" >Title: Joint modeling to assess the relationship between time to curative treatment and treatment recurrence in PCa patients  </h2>
 </center>
 
@@ -37,7 +39,7 @@ risk of receiving treatment (i.e., shortest time to treatment) showed a 0.51 [0.
 separate models for each grade group, the association decreased in higher grade groups. Additionally, associations of delaying
 treatment were higher than associations of earlier treatment.
 
-<br>
+<br> -->
 <p>
 If you have any feedback or comments, please feel free to leave them in the section below.
 
