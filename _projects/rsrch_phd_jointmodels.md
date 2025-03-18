@@ -8,12 +8,18 @@ category: Research
 giscus_comments: true
 ---
 
-This is the third research project during my PhD studies. Most of the methodological work was done at KAUST under supervision of Denis Rustand,phd, and Prof. Haavard Rue.
+This is the third research project during my PhD studies. Most of the methodological work was done during my research visit to KAUST, and under supervision of Denis Rustand,phd, and Prof. Haavard Rue.
 
-This work was accepted for presentation at <a href='https://baltic.uroweb.org/'>Baltic-24 EAU</a> meeting (May 2024, Tallinn, Estonia), the Abstract is below, and full paper will be added later!
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/projects/rsrch_phd_jointmodel/kaust_1.jpeg" title="kaust_batouche" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+This work was accepted for presentation at <a href='https://baltic.uroweb.org/'>Baltic-24 EAU</a> meeting (May 2024, Tallinn, Estonia) and <a href='https://iscb2024.info/'>ISCB-45</a> (July 2024m Thessaloniki, Greece).
 
 <center> 
-<h2 style="color: orange" >Title: Joint modeling to assess the relationship between time to curative treatment and treatment recurrence in PCa patients  </h2>
+<h2 style="color: orange" >Joint modeling to assess the relationship between time to curative treatment and treatment recurrence in PCa patients  </h2>
 </center>
 
 <h3>Abstract </h3>
