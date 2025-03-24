@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Abderrahim Oussama Batouche
+      value: Abderrahim-Oussama Batouche
     - name: Date of Birth
       value: July 12th, 1996
     - name: Languages
-      value: Arabic, English, French
+      value: Arabic, English, French, Swedish
 
 - title: Education
   type: time_table
