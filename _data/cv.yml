@@ -79,14 +79,15 @@
       items: 
         - Clinical data mining
         - EHR imputation
+    - title: AI and Machine learning 
+      items:
+        - Supervised/Unsupervised learning
+        - Multi-Models
     - title: Statistical modeling
       items:
         - Survival analysis
         - Joint models
-    - title: AI/ML 
-      items:
-        - Supervised/Unsupervised learning
-
+    
 - title: Other Interests
   type: list
   contents:
