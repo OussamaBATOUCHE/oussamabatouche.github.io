@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Abderrahim-Oussama Batouche
+      value: Oussama Batouche
     - name: Date of Birth
       value: July 12th, 1996
     - name: Languages
@@ -18,9 +18,9 @@
         # - I'm developing computational methods to avoid <a href='https://en.wikipedia.org/wiki/Prostate_cancer'>Prostate cancer</a> overtreatment and overdiagnosis, using Helsinki University Hospital data.
         - title: Computational methods for <a href='https://en.wikipedia.org/wiki/Prostate_cancer'>Prostate Cancer</a> profiling and outcome prediction.
           contents:
-            - Clinical data mining 
-            - Statistical modeling
             - Machine learning
+            - Statistical modeling
+            - Clinical data mining 
     - title: Master's
       institution: University of Science and Technology Houari Boumediene
       year: 2020
@@ -87,8 +87,3 @@
       items:
         - Survival analysis
         - Joint models
-    
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Reading, Travelling, Basketball.
