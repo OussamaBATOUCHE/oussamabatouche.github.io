@@ -8,7 +8,7 @@ middle_name:
 last_name: Batouche
 email: ao.Batouche@Gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website for Oussama Batouche
+  Data Scientist
 footer_text: >
 keywords: batouche, abderrahim, oussama, abderrahim oussama batouche, abderrahim batouche, oussama batouche, Oussama Batouche, OUSSAMA BATOUCHE, BATOUCHE, Batouche, ABDERRAHIM BATOUCHE  # add your own keywords or leave empty
 
@@ -56,9 +56,9 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: true # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -79,7 +79,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
-research_gate_profile: Abderrahim-Oussama-Batouche-4 # your profile on ResearchGate
+research_gate_profile: Oussama-Batouche # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL

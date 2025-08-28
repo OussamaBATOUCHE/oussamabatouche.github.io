@@ -218,7 +218,7 @@
         {%- assign sameaslinks = sameaslinks | split: "" -%}
     {%- endif -%}
 
-    <script type="application/ld+json">
+    <!-- <script type="application/ld+json">
     {
         "author":
         {
@@ -235,5 +235,29 @@
         "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
         "@context": "https://schema.org"
     }
-    </script>
+    </script> -->
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": ["Person","ProfilePage"],
+        "name": "Oussama Batouche",
+        "alternateName": ["Abderrahim Oussama Batouche", "A. O. Batouche", "Abderrahim Batouche", "Batouche"],
+        "jobTitle": "Data Scientist",
+        "affiliation": [{
+            "@type": "Organization",
+            "name": "University of Helsinki"
+        }],
+        "knowsAbout": ["Machine Learning","Statistical Modeling","Prostate Cancer","Digital Pathology"],
+        "url": "https://oussamabatouche.com",
+        "image": "https://oussamabatouche.com/assets/img/oussama_batouche_profile_pic.jpeg",
+        "sameAs": [
+            "https://scholar.google.com/citations?user=lT-nAOMAAAAJ",
+            "https://orcid.org/0000-0003-4181-9891",
+            "https://www.semanticscholar.org/author/Oussama-Batouche/2205477410",
+            "https://www.webofscience.com/wos/author/record/OEM-9279-2025",
+            "https://www.linkedin.com/in/oussama-batouche/",
+            "https://github.com/OussamaBATOUCHE"
+        ]
+        }
+    </script> 
 {%- endif %}
