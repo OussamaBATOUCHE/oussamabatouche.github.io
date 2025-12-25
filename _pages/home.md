@@ -6,10 +6,10 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: oussama_batouche_profile_bw_portrait.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Me in 2023</p>
+    <p></p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts

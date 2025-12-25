@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presentation at <a href='https://conferences.asco.org/gu/attend'>ASCO GU25</a>, San Francisco, CA.
+Presentation at <a  target="_blank" rel="noopener noreferrer"  href='https://conferences.asco.org/gu/attend'>ASCO GU25</a>, San Francisco, CA.
