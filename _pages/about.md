@@ -25,6 +25,6 @@ Oussama's PhD thesis revolves around statistics, image processing and artificial
 
 <br /> Mainly interested in:
 
-- Machine learning and statistics for science and healthcare.
+- Machine learning and statistics for Science and Healthcare.
 - Supervised/Unsupervised learning (multi)models.
 - Data acquisition, curation, and model validation.
