@@ -8,8 +8,14 @@ category: Research
 giscus_comments: true
 ---
 
-This is my first research project during my PhD studies. Abstract is below, and full paper will be added later!
+This is the first research project during my PhD studies.
 
+<br>
+Preprint: <a href='https://www.medrxiv.org/content/10.1101/2024.01.10.24300922v1' target="_blank">DOI: 10.1101/2024.01.10.24300922</a>
+<br>
+Published version: <a href='https://bjui-journals.onlinelibrary.wiley.com/doi/10.1111/bju.70109?utm_medium=article&utm_source=researchgate.net' target="_blank">DOI: 0.1111/bju.70109</a>
+
+<br>
 <center> 
 <h2 style="color: orange" >MRI-Targeted Prostate Biopsy Introduces Grade Inflation and Overtreatment  </h2>
 </center>
@@ -30,6 +36,8 @@ This is my first research project during my PhD studies. Abstract is below, and 
 <h4>Patient summary:</h4> Prostate cancers diagnosed with MRI-targeted biopsies behave less aggressively compared to same grade cancers diagnosed with systematic biopsies. Treatment guidelines need to be updated to prevent overtreatment.
 
 <br>
+<br>
+
 <p>
 If you have any feedback or comments, please feel free to leave them in the section below.
 

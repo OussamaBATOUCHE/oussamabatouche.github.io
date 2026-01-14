@@ -10,6 +10,9 @@ giscus_comments: true
 
 This is the third research project during my PhD studies. Most of the methodological work was done during my research visit to KAUST, and under supervision of Denis Rustand,phd, and Prof. Haavard Rue.
 
+<br>
+Published Paper: <a href='https://www.sciencedirect.com/science/article/pii/S2352914825001169' target="_blank">DOI: 10.1016/j.imu.2025.101727</a>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/rsrch_phd_jointmodel/kaust_1.jpeg" title="kaust_batouche" class="img-fluid rounded z-depth-1" %}
