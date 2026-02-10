@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-01-01
+date: 2026-02-01
 inline: false
 title: "MenaML 2026 @KAUST, KSA"
 related_posts: false
