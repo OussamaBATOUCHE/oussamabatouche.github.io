@@ -1,9 +1,11 @@
-version: "3"
-# this file uses prebuilt image in dockerhub
 services:
   jekyll:
     image: amirpourmand/al-folio:latest
     build: .
+    environment:
+      BUNDLE_PATH: /usr/local/bundle
+      BUNDLE_APP_CONFIG: /usr/local/bundle
+      GEM_HOME: /usr/local/bundle
     ports:
       - 8080:8080
       - 35729:35729

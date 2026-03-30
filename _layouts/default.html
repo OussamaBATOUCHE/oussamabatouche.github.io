@@ -10,7 +10,7 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}" data-bootstrap-table="{% if page.datatable %}true{% else %}false{% endif %}">
 
     <!-- Header -->
     {%- include header.html %}

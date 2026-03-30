@@ -199,6 +199,23 @@ blockquote {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+  line-height: 1.7;
+  max-width: 42rem;
+  padding-left: 1rem;
+  position: relative;
+  color: var(--global-text-color-light);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    bottom: 0.2rem;
+    width: 3px;
+    border-radius: 999px;
+    background: linear-gradient(180deg, var(--global-theme-color), transparent);
+    opacity: 0.85;
+  }
 
   a {
     color: inherit;
@@ -259,14 +276,23 @@ blockquote {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    padding: 0.35rem 0.85rem;
+    transition: color 0.12s ease;
+    -webkit-tap-highlight-color: transparent;
 
     &:hover {
       color: var(--global-hover-color);
     }
+
+    &:focus,
+    &:active {
+      background-color: transparent;
+      box-shadow: none;
+      outline: none;
+    }
   }
 
   .navbar-nav .nav-item.active>.nav-link {
-    background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
 
@@ -501,6 +527,9 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  margin-bottom: 0.45rem;
+  letter-spacing: -0.02em;
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
@@ -825,15 +854,6 @@ code {
   padding: 3px 3px;
 }
 
-
-// Transitioning Themes
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
-}
 
 // Extra Markdown style (post Customization)
 .post {

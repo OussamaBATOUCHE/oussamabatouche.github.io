@@ -2,14 +2,16 @@
 
 let toggleTheme = (theme) => {
   if (theme == "dark") {
-    setTheme("light");
+    setTheme("light", true);
   } else {
-    setTheme("dark");
+    setTheme("dark", true);
   }
 };
 
-let setTheme = (theme) => {
-  transTheme();
+let setTheme = (theme, animate = false) => {
+  if (animate) {
+    transTheme();
+  }
   setHighlight(theme);
   setGiscusTheme(theme);
 
@@ -81,10 +83,7 @@ let setGiscusTheme = (theme) => {
 };
 
 let transTheme = () => {
-  document.documentElement.classList.add("transition");
-  window.setTimeout(() => {
-    document.documentElement.classList.remove("transition");
-  }, 500);
+  return;
 };
 
 let initTheme = (theme) => {
@@ -95,7 +94,7 @@ let initTheme = (theme) => {
     }
   }
 
-  setTheme(theme);
+  setTheme(theme, false);
 };
 
 initTheme(localStorage.getItem("theme"));

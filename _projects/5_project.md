@@ -4,6 +4,7 @@ title: Geoflotte
 description: The official website for Geoflotte services.
 img: assets/img/projects/p4/min_geo.png
 redirect: https://geoflotte.com/
+sitemap: false
 importance: 16
 category: Software & Web dev
 ---

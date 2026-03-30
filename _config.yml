@@ -8,9 +8,9 @@ middle_name:
 last_name: Batouche
 email: ao.Batouche@Gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Data Scientist
+  Oussama Batouche is a data scientist and PhD candidate at the University of Helsinki working on AI, statistics, digital pathology, and prostate cancer research.
 footer_text: >
-keywords: batouche, abderrahim, oussama, abderrahim oussama batouche, abderrahim batouche, oussama batouche, Oussama Batouche, OUSSAMA BATOUCHE, BATOUCHE, Batouche, ABDERRAHIM BATOUCHE  # add your own keywords or leave empty
+keywords: Oussama Batouche, Abderrahim Oussama Batouche, Batouche, data scientist, PhD candidate, University of Helsinki, HUCC, Helsinki Urological Cancer Center, AI for healthcare, digital pathology, prostate cancer, machine learning, statistics  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -58,7 +58,7 @@ max_width: 800px
 # Display links to the page with a preview object on social media.
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: true # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/oussama_batouche_profile_pic.jpeg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -84,7 +84,7 @@ scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
+wikidata_id: Q136039820 # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 dblp_url: # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
@@ -102,6 +102,28 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 
 contact_note: >
   Email remains the best way to reach out!
+
+person_aliases:
+  - Abderrahim Oussama Batouche
+  - Abderrahim Batouche
+  - A. O. Batouche
+  - Oussama Batouche
+
+research_interests:
+  - Machine learning
+  - Statistics
+  - Artificial intelligence
+  - Digital pathology
+  - Prostate cancer
+  - Real-world data
+
+primary_affiliation_name: Helsinki Urological Cancer Center
+primary_affiliation_url: https://www.hucc.fi/
+secondary_affiliation_name: University of Helsinki
+secondary_affiliation_url: https://www.helsinki.fi/en
+
+additional_same_as:
+  - https://www.webofscience.com/wos/author/record/OEM-9279-2025
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -218,20 +240,28 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-toc
-  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
 defaults:
   - scope:
       path: "assets"
+    values:
+      sitemap: false
+  - scope:
+      path: ""
+      type: posts
+    values:
+      sitemap: false
+  - scope:
+      path: ""
+      type: news
     values:
       sitemap: false
 

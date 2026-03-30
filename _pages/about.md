@@ -1,8 +1,11 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /about/
-subtitle:
+sitemap: false
+description: About Oussama Batouche, data scientist at HUCC and PhD candidate at the University of Helsinki working on AI, statistics, digital pathology, and prostate cancer research.
+keywords: Oussama Batouche, data scientist, HUCC, University of Helsinki, AI, digital pathology, prostate cancer, Google Scholar, LinkedIn, ORCID
+subtitle: Data Scientist | PhD Candidate | AI for Healthcare
 
 profile:
   align: right

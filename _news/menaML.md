@@ -20,7 +20,7 @@ It’s not a dream - it just happened.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/news/mena_ml_2026/IMG_1787.jpg" title="oussama batouche" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/news/mena_ml_2026/IMG_1787.jpeg" title="oussama batouche" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

@@ -20,11 +20,10 @@ $(document).ready(function() {
     });
   }
 
-  // add css to jupyter notebooks
-  const cssLink = document.createElement("link");
-  cssLink.href  = "../css/jupyter.css";
-  cssLink.rel   = "stylesheet";
-  cssLink.type  = "text/css";
+  const jupyterIframes = $('.jupyter-notebook-iframe-container iframe');
+  if (!jupyterIframes.length) {
+    return;
+  }
 
   let theme = localStorage.getItem("theme");
   if (theme == null || theme == "null") {
@@ -34,7 +33,12 @@ $(document).ready(function() {
     }
   }
 
-  $('.jupyter-notebook-iframe-container iframe').each(function() {
+  jupyterIframes.each(function() {
+    const cssLink = document.createElement("link");
+    cssLink.href = "../css/jupyter.css";
+    cssLink.rel = "stylesheet";
+    cssLink.type = "text/css";
+
     $(this).contents().find("head").append(cssLink);
 
     if (theme == "dark") {
@@ -46,4 +50,3 @@ $(document).ready(function() {
     }
   });
 });
-

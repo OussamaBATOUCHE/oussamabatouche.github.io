@@ -193,8 +193,18 @@
           {%- endif %}
           </div>
           {% if site.enable_publication_badges %}
-          {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
-          {% assign entry_has_dimensions_badge = entry.dimensions or entry.doi or entry.pmid %}
+          {% assign entry_dimensions_id = nil %}
+          {% if entry.dimensions and entry.dimensions != true and entry.dimensions != 'true' %}
+            {% assign entry_dimensions_id = entry.dimensions %}
+          {% endif %}
+          {% assign entry_has_altmetric_badge = false %}
+          {% if entry.altmetric or entry.doi or entry.eprint or entry.pmid or entry.isbn %}
+            {% assign entry_has_altmetric_badge = true %}
+          {% endif %}
+          {% assign entry_has_dimensions_badge = false %}
+          {% if entry_dimensions_id or entry.doi or entry.pmid %}
+            {% assign entry_has_dimensions_badge = true %}
+          {% endif %}
           {% if entry_has_altmetric_badge or entry_has_dimensions_badge %}
           <div class="badges">
             {%- if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
@@ -216,10 +226,10 @@
               <span class="__dimensions_badge_embed__"
               {% if entry.doi %}
                 data-doi="{{ entry.doi }}"
-              {% else if entry.pmid %}
+              {% elsif entry.pmid %}
                 data-pmid="{{ entry.pmid }}"
               {% else %}
-                data-id="{{ entry.dimensions }}"
+                data-id="{{ entry_dimensions_id }}"
               {% endif %}
               data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
             {%- endif %}

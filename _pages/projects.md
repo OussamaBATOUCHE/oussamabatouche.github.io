@@ -1,10 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: A growing collection of my different projects
 nav: true
 nav_order: 3
+masonry: true
 display_categories: [Research, Software & Web dev, Hackathons]
 horizontal: false
 ---

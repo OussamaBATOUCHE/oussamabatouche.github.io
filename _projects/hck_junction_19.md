@@ -18,7 +18,7 @@ The challenge is still well described in the <a href='https://www.varian.com/nod
         {% include figure.html path="assets/img/projects/hck_junction_19/junction2019.jpg" title="junction2019" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/projects/hck_junction_19/Siemens-Healthineers-Varian.jpeg" title="varian" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/hck_junction_19/Siemens-Healthineers-Varian.jpg" title="varian" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
