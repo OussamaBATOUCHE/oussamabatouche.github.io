@@ -1,7 +1,6 @@
 FROM ubuntu:latest
-ENV DEBIAN_FRONTEND noninteractive
-
-Label MAINTAINER Amir Pourmand
+ENV DEBIAN_FRONTEND=noninteractive
+LABEL MAINTAINER="Amir Pourmand"
 
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
     locales \
@@ -21,7 +20,11 @@ RUN sed -i '/en_US.UTF-8/s/^# //g' /etc/locale.gen && \
 ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US:en \
     LC_ALL=en_US.UTF-8 \
-    JEKYLL_ENV=production
+    JEKYLL_ENV=production \
+    GEM_HOME=/usr/local/bundle \
+    BUNDLE_PATH=/usr/local/bundle \
+    BUNDLE_APP_CONFIG=/usr/local/bundle \
+    PATH=/usr/local/bundle/bin:${PATH}
 
 # install jekyll and dependencies
 RUN gem install jekyll bundler
