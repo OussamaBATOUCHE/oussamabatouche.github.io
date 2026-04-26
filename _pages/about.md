@@ -24,7 +24,7 @@ Oussama Batouche is a data scientist at <a href='https://www.hucc.fi/'>HUCC</a> 
 
 Oussama's PhD research revolves around machine learning and statistical models for profiling prostate cancer and predicting clinical outcomes, with the broader aim of reducing unnecessary treatment and overdiagnosis.
 
-<br /> Core expertise:
+<br />
 
 - Machine learning and statistics for science and healthcare.
 - Supervised/Unsupervised learning (multi)models.

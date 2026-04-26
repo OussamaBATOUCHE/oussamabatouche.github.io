@@ -2,9 +2,13 @@
 layout: page
 title: Grade Inflation
 description: This work discusses the grade inflation hypohtesis in Prostate cancer diagnosis.
-img: assets/img/projects/rsrch_phd_grade_inf/gi.jpg
+img: assets/img/projects/rsrch_phd_grade_inf/main.png
 importance: 2
 category: Research
+tags:
+  - Statistics
+  - Survival analysis
+  - Cox
 giscus_comments: true
 ---
 

@@ -15,8 +15,15 @@
         <div class="col-md-12">
         {%- endif -%}
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
+            <h3 class="card-title">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
+            {%- if project.tags and project.tags.size > 0 -%}
+            <p class="project-tags">
+              {% for tag in project.tags -%}
+              <span class="project-tag">{{ tag }}</span>
+              {%- endfor %}
+            </p>
+            {%- endif %}
             <div class="row ml-1 mr-1 p-0">
               {%- if project.github -%}
               <div class="github-icon">

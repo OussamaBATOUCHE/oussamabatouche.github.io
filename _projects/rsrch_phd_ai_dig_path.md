@@ -5,6 +5,10 @@ description: to extract WSIs predictive features for PCa upgrading classificatio
 img: assets/img/projects/rsrch_phd_aidigpath/main.png
 importance: 1
 category: Research
+tags:
+  - Computer Vision
+  - Machine learning
+  - Features engineering
 giscus_comments: true
 ---
 

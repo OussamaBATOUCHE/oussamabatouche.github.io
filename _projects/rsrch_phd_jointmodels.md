@@ -2,9 +2,13 @@
 layout: page
 title: Joint Models
 description: to assess the relationship between time to treatment and BCR in PCa patients
-img: assets/img/projects/rsrch_phd_jointmodel/jm.jpg
+img: assets/img/projects/rsrch_phd_jointmodel/main.png
 importance: 1
 category: Research
+tags:
+  - Statistics
+  - INLAjoint
+  - R
 giscus_comments: true
 ---
 

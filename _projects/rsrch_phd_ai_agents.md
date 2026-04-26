@@ -1,10 +1,14 @@
 ---
 layout: page
-title: P-RAG system
-description: RAG system for Prostate cancer patients' assistant.
+title: PCC-RAG
+description: RAG system for Prostate cancer patients' assistant. Grounded responses and more.
 img: assets/img/projects/rsrch_phd_agentic_ai/main.png
 importance: 1
 category: Research
+tags:
+  - AI
+  - Agentic AI
+  - RAG
 giscus_comments: true
 ---
 
