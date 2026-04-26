@@ -2,7 +2,7 @@
 layout: page
 title: AI in Pathology
 description: to extract WSIs predictive features for PCa upgrading classification.
-img: assets/img/projects/rsrch_phd_aidigpath/adp.jpg
+img: assets/img/projects/rsrch_phd_aidigpath/main.png
 importance: 1
 category: Research
 giscus_comments: true

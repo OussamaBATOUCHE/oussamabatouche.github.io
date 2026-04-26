@@ -18,7 +18,7 @@
         # - I'm developing computational methods to avoid <a href='https://en.wikipedia.org/wiki/Prostate_cancer'>Prostate cancer</a> overtreatment and overdiagnosis, using Helsinki University Hospital data.
         - title: Computational methods for <a href='https://en.wikipedia.org/wiki/Prostate_cancer'>Prostate Cancer</a> profiling and outcome prediction.
           contents:
-            - Machine learning
+            - AI and Machine learning
             - Statistical modeling
             - Clinical data mining 
     - title: Master's
