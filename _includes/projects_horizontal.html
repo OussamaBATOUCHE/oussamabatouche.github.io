@@ -7,8 +7,9 @@
     <div class="card hoverable">
       <div class="row g-0">
         {%- if project.img -%}
+        {%- assign project_image_alt = project.image_alt | default: project.title | append: ' project preview' -%}
         <div class="card-img col-md-6">
-          {% include figure.html path=project.img sizes="(min-width: 768px) 156px, 50vw" alt="project thumbnail" %}
+          {% include figure.html path=project.img sizes="(min-width: 768px) 156px, 50vw" alt=project_image_alt %}
         </div>
         <div class="col-md-6">
         {%- else -%}

@@ -2,6 +2,7 @@
 layout: page
 title: submenus
 sitemap: false
+robots: noindex,follow
 nav: false
 nav_order: 8
 dropdown: true

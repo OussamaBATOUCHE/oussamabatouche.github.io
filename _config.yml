@@ -10,13 +10,13 @@ email: ao.Batouche@Gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Oussama Batouche is a data scientist and PhD candidate at the University of Helsinki working on AI, statistics, digital pathology, and prostate cancer research.
 footer_text: >
-keywords: Oussama Batouche, Abderrahim Oussama Batouche, Batouche, data scientist, PhD candidate, University of Helsinki, HUCC, Helsinki Urological Cancer Center, AI for healthcare, digital pathology, prostate cancer, machine learning, statistics  # add your own keywords or leave empty
+keywords: Oussama Batouche, Abderrahim Oussama Batouche, Batouche, data scientist, PhD candidate, University of Helsinki, HUCC, Helsinki Urological Cancer Center, AI for healthcare, digital pathology, prostate cancer, machine learning, statistics, AI, RAG, LLMs  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo.png  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://oussamabatouche.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -31,14 +31,6 @@ repo_trophies:
   enabled: true
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
-
-# -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
-rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -59,6 +51,7 @@ max_width: 800px
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
 og_image: /assets/img/oussama_batouche_profile_pic.jpeg # The site-wide (default for all links) Open Graph preview image
+og_image_alt: Portrait of Oussama Batouche
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -81,7 +74,6 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 osf_id: # your OSF ID
 research_gate_profile: Oussama-Batouche # your profile on ResearchGate
 scopus_id: # your profile on Scopus
-blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: Q136039820 # your wikidata id
@@ -104,18 +96,21 @@ contact_note: >
   Email remains the best way to reach out!
 
 person_aliases:
+  - Oussama Batouche
   - Abderrahim Oussama Batouche
   - Abderrahim Batouche
   - A. O. Batouche
   - Oussama Batouche
-
+  - Abderrahim Oussama
+  - Batouche
+  - Batouche Oussama
+  - Batouche Abderrahim
+  
 research_interests:
   - Machine learning
-  - Statistics
   - Artificial intelligence
-  - Digital pathology
-  - Prostate cancer
-  - Real-world data
+  - Statistics
+  - Data Science
 
 primary_affiliation_name: Helsinki Urological Cancer Center
 primary_affiliation_url: https://www.hucc.fi/
@@ -124,6 +119,8 @@ secondary_affiliation_url: https://www.helsinki.fi/en
 
 additional_same_as:
   - https://www.webofscience.com/wos/author/record/OEM-9279-2025
+  - https://scholar.google.com/citations?user=lT-nAOMAAAAJ&hl=en
+  - https://www.linkedin.com/in/oussama-batouche/
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -132,24 +129,8 @@ additional_same_as:
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification:  k1mOx4kEai2jpei5L8L4Y9n4k8evxoMBrLdNA_WsYH8 # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name: batouche-blog # blog_name will be displayed in your blog page
-blog_description: My thoughts on my ourny in academia and industies.
-permalink: /blog/:year/:title/
-
-# Pagination
-pagination:
-  enabled: true
-
-related_blog_posts:
-  enabled: true
-  max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
@@ -166,18 +147,6 @@ giscus:
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
-
-
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -197,11 +166,6 @@ announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -234,15 +198,12 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
   - jekyll-diagrams
   - jekyll-email-protect
-  - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-link-attributes
   - jekyll-minifier
-  - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-toc
@@ -252,16 +213,6 @@ plugins:
 defaults:
   - scope:
       path: "assets"
-    values:
-      sitemap: false
-  - scope:
-      path: ""
-      type: posts
-    values:
-      sitemap: false
-  - scope:
-      path: ""
-      type: news
     values:
       sitemap: false
 
@@ -278,31 +229,13 @@ jekyll-minifier:
     harmony: true
 
 # -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
-
-jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
-
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
-display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
-
-# -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
 
   last_name: [Batouche]
-  first_name: [Abderrahim Oussama, A.O.]
+  first_name: [Abderrahim Oussama, A.O., Oussama, Abderrahim]
 
   style: apa
   locale: en
@@ -332,7 +265,7 @@ enable_publication_badges:
   dimensions: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, video, slides, website, preview, altmetric]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, code, poster, video, slides, website, preview, altmetric]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit:  # leave blank to always show all authors
@@ -396,7 +329,7 @@ enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
+                                   # for each section title
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page

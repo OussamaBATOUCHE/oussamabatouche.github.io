@@ -1,17 +1,17 @@
 ---
 layout: page
-title: JUNCTION 21
-description: Dynamic visualisation of key KPIs for energy inefficiency from raw data of Elisa based on data analysis.
+title: Junction 2021
+description: Dynamic visualization of key energy inefficiency KPIs from Elisa's raw data.
 img: assets/img/projects/hck_junction_21/junc_21_cover.jpg
 importance: 2
 category: Hackathons
 giscus_comments: true
 ---
 
-This hackathon was my 4th experience in <a href='https://www.hackjunction.com/'>Junction</a> series of hackathon, and the 5 globally.
-In this year together with my team, we decided to participate in Healthcare related challenge proposed by <a href='https://www.elisa.fi/'>Elisa</a>.
+This hackathon was my fourth experience in the <a href='https://www.hackjunction.com/'>Junction</a> hackathon series, and my fifth hackathon overall.
+That year, my team and I decided to participate in the challenge proposed by <a href='https://www.elisa.fi/'>Elisa</a>.
 
-Demo slides bellow, content to be uploaded soon!
+Demo slides are below. More content will be uploaded soon.
 
 <div class="row mt-3">
     <div class="col-sm mt-12 mt-md-0 center">

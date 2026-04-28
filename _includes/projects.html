@@ -8,10 +8,11 @@
       {%- endif %}
       <div class="card hoverable">
         {%- if project.img %}
+        {%- assign project_image_alt = project.image_alt | default: project.title | append: ' project preview' -%}
         {%- include figure.html
           path=project.img
           sizes = "250px"
-          alt="project thumbnail" -%}
+          alt=project_image_alt -%}
         {%- endif %}
         <div class="card-body">
           <h2 class="card-title">{{ project.title }}</h2>

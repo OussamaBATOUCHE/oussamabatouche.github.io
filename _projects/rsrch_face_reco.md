@@ -1,7 +1,7 @@
 ---
 layout: page
 title: INFOSPHERE
-description: Finnish-Russian collaboration on Face recognition system ruynning on the cloud.
+description: A Finnish-Russian collaboration on a cloud-based face recognition system.
 img: assets/img/projects/rsrch_face_reco/main.png
 importance: 3
 category: Research
@@ -12,9 +12,9 @@ tags:
 giscus_comments: true
 ---
 
-INFOSPHERE is an international collaboration that combines Finland and Russia.
+INFOSPHERE is an international collaboration between Finland and Russia.
 
-Our task as a partner in this project from Aalto University was to develop the face recognition software based on video streaming.
+As a partner in this project from Aalto University, our task was to develop face recognition software based on video streaming.
 
 <div class="row mt-3">
     <div class="col-sm mt-12 mt-md-0 center">

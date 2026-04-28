@@ -1,17 +1,17 @@
 ---
 layout: page
-title: JUNCTION 19
-description: Easy 3D Collab - it's a Cloud-based real-time radiation therapy plan-review system developed for Varian.
+title: Junction 2019
+description: Easy 3D Collab, a cloud-based real-time radiation therapy plan review system developed for Varian.
 img: assets/img/projects/hck_junction_19/junc_19_cover.jpg
 importance: 3
 category: Hackathons
 giscus_comments: true
 ---
 
-This hackathon was my 2nd experience in <a href='https://www.hackjunction.com/'>Junction</a> series of hackathon, and the 3 globally.
-In this year together with my team, we decided to participate in Healthcare related challenge proposed by <a href='https://www.varian.com/'>varian</a>.
+This hackathon was my second experience in the <a href='https://www.hackjunction.com/'>Junction</a> hackathon series, and my third hackathon overall.
+That year, my team and I decided to participate in the healthcare-related challenge proposed by <a href='https://www.varian.com/'>Varian</a>.
 
-The challenge is still well described in the <a href='https://www.varian.com/node/10985'>following link</a>, however a short description won't harm.
+The challenge is still well described at the <a href='https://www.varian.com/node/10985'>following link</a>, but a short summary is included below.
 
 <div class="row">
     <div class="col-sm mt-4 mt-md-0">
@@ -24,28 +24,28 @@ The challenge is still well described in the <a href='https://www.varian.com/nod
 
 <h3>Background</h3>
 <p>
-The challenge is about how to help doctors be more efficient. Every day doctors make countless decisions about what kind of treatment the patient will be given. The aim of this challenge is to help them make the decisions easier, faster and more reliably.
+The challenge focused on helping doctors work more efficiently. Every day, doctors make countless decisions about the type of treatment each patient should receive. The aim of this challenge was to help them make those decisions more easily, quickly, and reliably.
 
-Every radiotherapy is planned individually for a patient. Often the it is a physicist who makes the plan with help of a 3D picture of the patient. There are two essential things that can be seen in the picture: the area that needs to be treated and the critical organs that should be protected from the radiation. Before the patient can be treated, the plan must be approved by a doctor.
+Every radiotherapy treatment is planned individually for each patient. Often, a physicist creates the plan with the help of a 3D image of the patient. Two essential things can be seen in the image: the area that needs to be treated and the critical organs that should be protected from radiation. Before the patient can be treated, the plan must be approved by a doctor.
 
 </p>
 
 <h3>Challenge</h3>
 <p>
-Making the cooperation of the doctor and physicist better is the task that Varian presents to the participants of Junction 2019 -hackathon. It is often a difficult job for a doctor trying to get to a workstation to approve the plan with among other things that must be considered in the treatment. The workstation may exist in a different part of the hospital or even in another town as the doctor.
+Varian's task for the Junction 2019 hackathon was to improve cooperation between doctors and physicists. It is often difficult for a doctor to access the workstation needed to approve a plan while also managing the many other considerations involved in treatment. The workstation may be located in another part of the hospital, or even in a different town from the doctor.
 
-The aim is to use technology to develop the treatment chain in a way, that doctors can work more efficiently when planning the treatment. This way they would have time to treat more people.
+The aim was to use technology to improve the treatment chain so that doctors could work more efficiently when planning treatment. This would give them more time to treat more patients.
 
 </p>
 
-<h3>Our solution</h3>
-<p>We reduce the time required for plan review process by introducing asynchronous collaboration between the oncologist and the planner(s). Our proposed solution targets to have as few highly efficient interactions as possible via integrating 3D collaboration tools with Varian APIs.</p>
-<p>In radiation therapy treatment, the plan review process takes a lot of time to finally decide on a specific plan. One of the main time-consuming tasks in this process is the need to have face-to-face interactions between the oncologist (O)  and the planners (P). To tackle this problem, we propose a complete solution that aims to have as few interactions as possible between the O and the P through our asynchronous collaboration platform. This would dramatically save the time for the plan review process and make it as:
+<h3>Our Solution</h3>
+<p>We reduced the time required for the plan review process by introducing asynchronous collaboration between the oncologist and the planner(s). Our proposed solution aimed to make each interaction as efficient as possible by integrating 3D collaboration tools with Varian APIs.</p>
+<p>In radiation therapy, the plan review process can take a long time before a specific plan is approved. One of the most time-consuming parts of this process is the need for face-to-face interactions between the oncologist (O) and the planners (P). To tackle this problem, we proposed a complete asynchronous collaboration platform designed to minimize the number of interactions between O and P. This could significantly reduce the time needed for plan review by:
 <ol>
-<li>The O and the P will no longer need to meet physically, i.e., saving time for the oncologist who is one of the most critical resources</li> 
-<li>Also provide them with a comprehensive 3D collaboration platform that is efficient and succinct as a fast way for the O and the P to communicate.</li> 
+<li>Eliminating the need for O and P to meet physically, saving time for the oncologist, who is one of the most critical resources.</li>
+<li>Providing them with a comprehensive, efficient 3D collaboration platform for fast communication.</li>
 </ol>
-We integrated our 3D collaboration platform with Varian APIs. However, as future plans, we envision to extend this idea for remote surgery, since our 3D collaboration feature requires very little overhead which makes it a great candidate for remote surgery application where fast internet connection is not available. We used Angular and ThreeGS for front-end and for back-end we used Google FireStore, Python, Docker, and AzureStorage.</p>
+We integrated our 3D collaboration platform with Varian APIs. In future work, we envisioned extending this idea to remote surgery, since our 3D collaboration feature requires very little overhead, making it a strong candidate for remote surgery applications where fast internet connections are not available. We used Angular and ThreeJS for the frontend, and Google Firestore, Python, Docker, and Azure Storage for the backend.</p>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -62,7 +62,7 @@ We integrated our 3D collaboration platform with Varian APIs. However, as future
     These are some screenshots from the developed prototype.
 </div>
 
-During the hackathon we worked on the portotype, and recoreded the follwoing demo video 👇.
+During the hackathon, we worked on the prototype and recorded the following demo video.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -73,10 +73,10 @@ During the hackathon we worked on the portotype, and recoreded the follwoing dem
     </div>
 </div>
 <div class="caption">
-    A simple, video demonstration for our prototype. On the left the web app for realtime collaboration on 3D radioogy plans. On the right the relatime display and anotation for the 3D plans.
+    A simple video demonstration of our prototype. On the left is the web app for real-time collaboration on 3D radiology plans. On the right is the real-time display and annotation interface for the 3D plans.
 </div>
 
-The powerpoint slides are bellow (click on the videos once arrived to the correct slide):
+The PowerPoint slides are below. Click on the videos once you reach the correct slide.
 
 <div class="row mt-3">
     <div class="col-sm mt-12 mt-md-0 center">

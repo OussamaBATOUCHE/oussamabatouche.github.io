@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of my different projects
+description: Selected research, software, and hackathon projects by Oussama Batouche across AI, healthcare, data science, and web development.
 nav: true
 nav_order: 3
 masonry: true

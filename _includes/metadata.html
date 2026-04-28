@@ -5,9 +5,7 @@
 {%- endif -%}
 
 {%- assign page_title = site_name -%}
-{%- if page.url == '/blog/index.html' and page.title and page.title != blank and page.title != 'blank' -%}
-  {%- capture page_title -%}{{ page.title }} | {{ site_name }}{%- endcapture -%}
-{%- elsif page.url != '/' and page.title and page.title != blank and page.title != 'blank' -%}
+{%- if page.url != '/' and page.title and page.title != blank and page.title != 'blank' -%}
   {%- capture page_title -%}{{ page.title }} | {{ site_name }}{%- endcapture -%}
 {%- elsif page.url != '/' and page.date -%}
   {%- capture page_title -%}{{ page.date | date: "%Y" }} | {{ site_name }}{%- endcapture -%}
@@ -18,18 +16,16 @@
 {%- assign page_keywords = page.keywords | default: site.keywords | strip -%}
 {%- assign canonical_url = page.url | replace: 'index.html', '' | absolute_url -%}
 {%- assign social_image = page.og_image | default: site.og_image -%}
+{%- assign social_image_alt = page.og_image_alt | default: page.image_alt | default: site.og_image_alt | strip -%}
 {%- unless social_image == blank or social_image contains '://' -%}
   {%- assign social_image = social_image | absolute_url -%}
 {%- endunless -%}
 
-{%- assign is_blog_post = false -%}
-{%- if page.url != '/blog/index.html' and page.url contains '/blog/' -%}
-  {%- unless page.url contains '/tag/' or page.url contains '/category/' -%}
-    {%- assign is_blog_post = true -%}
-  {%- endunless -%}
+{%- if page.robots and page.robots != blank -%}
+  {%- assign robot_directive = page.robots -%}
+{%- else -%}
+  {%- assign robot_directive = 'index,follow,max-image-preview:large' -%}
 {%- endif -%}
-
-{%- assign robot_directive = page.robots | default: 'index,follow,max-image-preview:large' -%}
 
 {% assign sameaslinks = "" | split: "," %}
 {%- if site.orcid_id -%}
@@ -91,9 +87,6 @@
 {%- if site.quora_username -%}
   {%- capture link -%}https://www.quora.com/profile/{{ site.quora_username }}{%- endcapture -%}
   {%- assign sameaslinks = sameaslinks | push: link -%}
-{%- endif -%}
-{%- if site.blogger_url -%}
-  {%- assign sameaslinks = sameaslinks | push: site.blogger_url -%}
 {%- endif -%}
 {%- if site.work_url -%}
   {%- assign sameaslinks = sameaslinks | push: site.work_url -%}
@@ -207,12 +200,15 @@
 {%- if site.serve_og_meta %}
 <!-- OpenGraph -->
 <meta property="og:site_name" content="{{ site_name }}" />
-<meta property="og:type" content="{% if is_blog_post %}article{% else %}website{% endif %}" />
+<meta property="og:type" content="website" />
 <meta property="og:title" content="{{ page_title }}" />
 <meta property="og:url" content="{{ canonical_url }}" />
 <meta property="og:description" content="{{ page_description }}" />
 {% if social_image and social_image != blank %}
 <meta property="og:image" content="{{ social_image }}" />
+  {% if social_image_alt != blank %}
+<meta property="og:image:alt" content="{{ social_image_alt }}" />
+  {% endif %}
 {% endif %}
 <meta property="og:locale" content="{{ site.lang }}" />
 
@@ -222,6 +218,9 @@
 <meta name="twitter:description" content="{{ page_description }}" />
 {% if social_image and social_image != blank %}
 <meta name="twitter:image" content="{{ social_image }}" />
+  {% if social_image_alt != blank %}
+<meta name="twitter:image:alt" content="{{ social_image_alt }}" />
+  {% endif %}
 {% endif %}
 {% if site.x_username %}
 <meta name="twitter:site" content="@{{ site.x_username }}" />
@@ -296,23 +295,7 @@
       {% else %}
       "sameAs": []
       {% endif %}
-    }{% if is_blog_post %},
-    {
-      "@type": "BlogPosting",
-      "@id": "{{ canonical_url }}#blogposting",
-      "headline": {{ page.title | default: site_name | jsonify }},
-      "description": {{ page_description | jsonify }},
-      "url": "{{ canonical_url }}",
-      "mainEntityOfPage": {
-        "@id": "{{ canonical_url }}#webpage"
-      },
-      "author": {
-        "@id": "{{ site.url | append: '/' }}#person"
-      },
-      "publisher": {
-        "@id": "{{ site.url | append: '/' }}#person"
-      }
-    }{% endif %}
+    }
   ]
 }
 </script>

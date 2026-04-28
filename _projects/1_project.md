@@ -1,22 +1,22 @@
 ---
 layout: page
 title: My Teeth
-description: Computer software for dantist clinic managment.
+description: Desktop software for dental clinic management.
 img: assets/img/projects/p1/my_teeth.jpg
 importance: 20
 category: Software & Web dev
 giscus_comments: true
 ---
 
-My teeth is a computer software, the first one that I've entirely designed and developed by myself. The idea came to my mind while visiting a dentist clinic in Algiers. At that time, I was still a bachelor's student and had just learned how to use <a href='https://windev.com/'>Windev</a>.
+My Teeth is a desktop software application and the first product I designed and developed entirely on my own. The idea came to me while visiting a dental clinic in Algiers. At the time, I was still a bachelor's student and had just learned how to use <a href='https://windev.com/'>Windev</a>.
 
-Initially, I visited the clinic and inquired whether they would be interested in purchasing software designed to manage their patients' documents, visits, and appointments. The answer was YES.
+I first visited the clinic and asked whether they would be interested in purchasing software to manage patient documents, visits, and appointments. The answer was yes.
 
-I dedicated two months of my summer vacation to working on this project and delivered the first version to the client. Subsequently, I visited various clinics, presenting my product, and successfully sold a couple of copies.
+I dedicated two months of my summer vacation to the project and delivered the first version to the client. Afterward, I visited several clinics to present the product and successfully sold a few copies.
 
-This marked my initial entry into the software development market.
+This marked my first step into the software development market.
 
-UML was employed during the conceptual design of this solution. Subsequently, the entire system and backend were developed following Object-Oriented programming principles.
+UML was used during the conceptual design of the solution. The system and backend were then developed using object-oriented programming principles.
 
 If you have any feedback or comments, please feel free to leave them in the section below.
 

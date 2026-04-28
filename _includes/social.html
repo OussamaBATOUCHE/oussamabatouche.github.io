@@ -49,13 +49,10 @@
             {%- if site.quora_username -%}
             <a href="https://www.quora.com/profile/{{ site.quora_username }}" title="Quora"><i class="fa-brands fa-quora"></i></a>
             {% endif %}
-            {%- if site.blogger_url -%}
-            <a href="{{ site.blogger_url }}" title="Blogger"><i class="fa-brands fa-blogger-b"></i></a>
-            {% endif %}
             {%- if site.work_url -%}
             <a href="{{ site.work_url }}" title="Work"><i class="fa-solid fa-briefcase"></i></a>
             {% endif %}
-            {%- if site.wikidata_id -%}
+            {%- if site.wikidata_id and page.permalink != '/' -%}
             <a href="https://www.wikidata.org/wiki/{{ site.wikidata_id }}" title="Wikidata"><i class="fa-solid fa-barcode"></i></a>
             {% endif %}
             {%- if site.wikipedia_id -%}
@@ -105,9 +102,6 @@
             {% endif %}
             {%- if site.zotero_username -%}
             <a href="https://www.zotero.org/{{ site.zotero_username }}" title="Zotero"><i class="ai ai-zotero"></i></a>
-            {% endif %}
-            {%- if site.rss_icon -%}
-            <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
             {% endif %}
             {%- if site.wechat_qr -%}
             <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin"></i></a>

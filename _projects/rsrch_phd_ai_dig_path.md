@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI in Pathology
-description: to extract WSIs predictive features for PCa upgrading classification.
+description: Extracting predictive features from WSIs for PCa upgrading classification.
 img: assets/img/projects/rsrch_phd_aidigpath/main.png
 importance: 1
 category: Research
@@ -12,7 +12,7 @@ tags:
 giscus_comments: true
 ---
 
-This is the forth research project during my PhD studies. Most of the methodological work was done in collaboration with Madabushi Lab at GeorgiaTech and Emory university, under supervision of Prof. Madabushi and my PhD supervisors.
+This is the fourth research project from my PhD studies. Most of the methodological work was done in collaboration with Madabhushi Lab at Georgia Tech and Emory University, under the supervision of Prof. Madabhushi and my PhD supervisors.
 <br>
 Publication: <a href='https://ascopubs.org/doi/abs/10.1200/JCO.2025.43.5_suppl.329' target="_blank">DOI: 10.1200/JCO.2025.43.5_suppl.329</a>
 
@@ -22,7 +22,7 @@ Publication: <a href='https://ascopubs.org/doi/abs/10.1200/JCO.2025.43.5_suppl.3
     </div>
 </div>
 
-This work was presented at <a href='https://conferences.asco.org/gu/attend'>ASCO GU 25</a> meeting (Feb 2025, San Francisco, CA).
+This work was presented at the <a href='https://conferences.asco.org/gu/attend'>ASCO GU 25</a> meeting (February 2025, San Francisco, CA).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,10 +31,10 @@ This work was presented at <a href='https://conferences.asco.org/gu/attend'>ASCO
 </div>
 
 <center> 
-<h2 style="color: orange" >Computational pathology–based classifier for predicting Gleason grade group upgrading on radical prostatectomy from diagnostic biopsies </h2>
+<h2 style="color: orange" >Computational Pathology-Based Classifier for Predicting Gleason Grade Group Upgrading on Radical Prostatectomy from Diagnostic Biopsies</h2>
 </center>
 
-Abstract here: <a href='https://ascopubs.org/doi/pdf/10.1200/JCO.2025.43.5_suppl.329'>Click</a>
+Abstract available here: <a href='https://ascopubs.org/doi/pdf/10.1200/JCO.2025.43.5_suppl.329'>Click</a>.
 Full paper available upon request.
 
 <p>

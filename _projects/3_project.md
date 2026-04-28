@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Thoriya
-description: Thoriya Hotel training school website.
+description: The official website for the Thoriya Hotel Training School.
 img: assets/img/projects/p8/min_thoriya.png
 redirect: https://www.efthoriya.com/
 sitemap: false

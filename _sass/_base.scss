@@ -19,6 +19,16 @@ strong {
   color: var(--global-text-color);
 }
 
+p,
+li,
+td {
+  line-height: 1.75;
+}
+
+p {
+  margin-bottom: 1.05rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -37,6 +47,9 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+  transition: color 0.16s ease, border-color 0.16s ease, background-color 0.16s ease, box-shadow 0.16s ease;
 
   &:hover {
     color: var(--global-theme-color);
@@ -61,11 +74,12 @@ img {
 }
 
 blockquote {
-  background: var(--global-bg-color);
-  border-left: 5px solid var(--global-theme-color);
+  background: var(--global-muted-bg-color);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 8px;
   margin: 1.5em 0;
-  padding: 1em;
-  font-size: 1.2rem;
+  padding: 1rem 1.15rem;
+  font-size: 1.05rem;
 
   p {
     margin-bottom: 0;
@@ -132,13 +146,33 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  box-shadow: 0 14px 34px var(--global-shadow-color);
+  overflow: hidden;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 
   img {
     width: 100%;
   }
 
+  &.hoverable:hover {
+    border-color: rgba(242, 145, 5, 0.34);
+    box-shadow: 0 20px 44px var(--global-shadow-color);
+    transform: translateY(-2px);
+  }
+
   .card-title {
     color: var(--global-text-color);
+    font-size: 1.08rem;
+    font-weight: 650;
+    letter-spacing: 0;
+    line-height: 1.32;
+  }
+
+  .card-text {
+    color: var(--global-text-color-light);
+    line-height: 1.6;
   }
 
   .card-item {
@@ -176,8 +210,43 @@ blockquote {
   }
 }
 
+.profile img {
+  border: 1px solid var(--global-divider-color);
+  box-shadow: 0 18px 42px var(--global-shadow-color);
+}
+
 .profile.float-right {
   margin-left: 1rem;
+}
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1.85rem 0 0;
+
+  span {
+    align-items: center;
+    background: var(--global-code-bg-color);
+    border: 1px solid rgba(242, 145, 5, 0.24);
+    border-radius: 999px;
+    color: var(--global-text-color);
+    display: inline-flex;
+    font-size: 0.92rem;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 0.42rem 0.72rem;
+    transition: background-color 0.16s ease, border-color 0.16s ease, color 0.16s ease, transform 0.16s ease, box-shadow 0.16s ease;
+  }
+
+  span:hover,
+  span:focus-visible {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    box-shadow: 0 10px 22px rgba(242, 145, 5, 0.18);
+    color: var(--global-hover-text-color);
+    transform: translateY(-1px);
+  }
 }
 
 .profile.float-left {
@@ -213,7 +282,7 @@ blockquote {
     bottom: 0.2rem;
     width: 3px;
     border-radius: 999px;
-    background: linear-gradient(180deg, var(--global-theme-color), transparent);
+    background: linear-gradient(180deg, var(--global-theme-color), var(--global-hover-color));
     opacity: 0.85;
   }
 
@@ -231,15 +300,21 @@ blockquote {
 // Navbar customization
 
 .navbar {
-  box-shadow: none;
+  box-shadow: 0 10px 32px var(--global-shadow-color);
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: var(--global-surface-color);
+  opacity: 1;
+  backdrop-filter: saturate(1.2) blur(14px);
+  -webkit-backdrop-filter: saturate(1.2) blur(14px);
+  min-height: 64px;
 }
 
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  box-shadow: 0 18px 38px var(--global-shadow-color);
+  padding: 0.4rem;
 
   a:not(.active) {
     color: var(--global-text-color);
@@ -256,10 +331,11 @@ blockquote {
 
 .dropdown-item {
   color: var(--global-text-color);
+  border-radius: 6px;
 
   &:hover {
     color: var(--global-hover-color);
-    background-color: var(--global-bg-color);
+    background-color: var(--global-muted-bg-color);
   }
 }
 
@@ -272,16 +348,20 @@ blockquote {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-weight: 650;
+    letter-spacing: 0;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
-    padding: 0.35rem 0.85rem;
-    transition: color 0.12s ease;
+    border-radius: 999px;
+    padding: 0.45rem 0.85rem;
+    transition: color 0.16s ease, background-color 0.16s ease;
     -webkit-tap-highlight-color: transparent;
 
     &:hover {
       color: var(--global-hover-color);
+      background-color: var(--global-muted-bg-color);
     }
 
     &:focus,
@@ -293,8 +373,9 @@ blockquote {
   }
 
   .navbar-nav .nav-item.active>.nav-link {
-    font-weight: bolder;
+    font-weight: 650;
     color: var(--global-theme-color);
+    background-color: var(--global-code-bg-color);
 
     &:hover {
       color: var(--global-hover-color);
@@ -378,7 +459,7 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
 
     a {
       i::before {
@@ -453,8 +534,8 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-size: 0.9rem;
 }
 
@@ -498,12 +579,13 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
+  padding-top: 2.5rem;
   padding-bottom: 3rem;
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: clamp(2.8rem, 8vw, 5rem);
+    letter-spacing: 0;
   }
 }
 
@@ -528,7 +610,7 @@ footer.sticky-bottom {
 
 .post-title {
   margin-bottom: 0.45rem;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
 
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
@@ -543,8 +625,8 @@ footer.sticky-bottom {
   li {
     border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
 
     .post-meta {
       color: var(--global-text-color-light);
@@ -573,38 +655,6 @@ footer.sticky-bottom {
     }
   }
 }
-
-.pagination {
-  .page-item {
-    .page-link {
-      color: var(--global-text-color);
-
-      &:hover {
-        color: $black-color;
-      }
-    }
-
-    &.active .page-link {
-      color: $white-color;
-      background-color: var(--global-theme-color);
-
-      &:hover {
-        background-color: var(--global-theme-color);
-      }
-    }
-  }
-}
-
-
-// Distill
-
-.distill {
-  a:hover {
-    border-bottom-color: var(--global-theme-color);
-    text-decoration: none;
-  }
-}
-
 
 // Projects
 
@@ -669,6 +719,42 @@ footer.sticky-bottom {
   }
 }
 
+.news {
+  .table {
+    color: var(--global-text-color);
+    margin-bottom: 0;
+
+    th {
+      color: var(--global-text-color-light);
+      font-weight: 500;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+
+    td,
+    th {
+      border-top: 1px solid var(--global-divider-color);
+      padding: 0.85rem 0.35rem;
+      vertical-align: top;
+    }
+
+    tr:first-child td,
+    tr:first-child th {
+      border-top: 0;
+    }
+  }
+
+  .news-title {
+    color: var(--global-text-color);
+    font-weight: 500;
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
 
 // Publications
 
@@ -706,7 +792,9 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--global-divider-color);
+      margin-bottom: 0;
+      padding: 1.15rem 0;
 
       .preview {
         width: 100%;
@@ -721,6 +809,7 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
+          border-radius: 999px;
           padding-left: 1rem;
           padding-right: 1rem;
 
@@ -740,7 +829,9 @@ footer.sticky-bottom {
       }
 
       .title {
-        font-weight: bolder;
+        color: var(--global-text-color);
+        font-weight: 650;
+        line-height: 1.35;
       }
 
       .author {
@@ -773,9 +864,11 @@ footer.sticky-bottom {
       .links {
         a.btn {
           color: var(--global-text-color);
-          border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          border: 1px solid var(--global-divider-color);
+          border-radius: 999px;
+          box-shadow: none;
+          padding-left: 0.85rem;
+          padding-right: 0.85rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           margin-left: 0;
@@ -853,8 +946,9 @@ figure.highlight {
 pre {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
-  border-radius: 6px;
-  padding: 6px 12px;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
 
   pre,
   code {
@@ -868,8 +962,8 @@ pre {
 code {
   color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
-  border-radius: 3px;
-  padding: 3px 3px;
+  border-radius: 5px;
+  padding: 0.15rem 0.35rem;
 }
 
 
@@ -1062,38 +1156,6 @@ nav[data-toggle="toc"] {
     visibility: hidden;
     height: 0;
     top: 0;
-  }
-}
-
-.featured-posts {
-  a {
-    color: var(--global-text-color-light);
-    text-decoration: none;
-
-    .card-text {
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-    }
-
-    &:hover {
-      color: var(--global-theme-color);
-
-      .card-title {
-        color: var(--global-theme-color);
-      }
-    }
-  }
-
-  .card-item {
-    margin-bottom: 10px;
-  }
-
-  .post-meta {
-    color: var(--global-text-color-light);
-    font-size: 0.875rem;
-    margin-bottom: 0;
-    padding-top: 0.5rem;
   }
 }
 

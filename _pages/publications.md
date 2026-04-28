@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: publications by categories in reversed chronological order. 
+description: Peer-reviewed publications and research outputs by Oussama Batouche spanning AI, statistics, digital pathology, and prostate cancer research.
 nav: true
 nav_order: 2
 ---

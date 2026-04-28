@@ -3,19 +3,23 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #fbfcfe;
   --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
+  --global-text-color: #172033;
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$orange-color};
   --global-hover-color: #{$orange-color};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-bg-color: #111827;
+  --global-footer-text-color: #cbd5e1;
   --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
+  --global-divider-color: rgba(23,32,51,.12);
   --global-card-bg-color: #{$white-color};
+  --global-muted-bg-color: #f1f5f9;
+  --global-surface-color: rgba(255,255,255,.82);
+  --global-shadow-color: rgba(15,23,42,.08);
+  --global-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --global-heading-font-family: "Source Serif 4", Georgia, serif;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -50,17 +54,21 @@
 html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #e5edf7;
+  --global-text-color-light: #a8b3c7;
+  --global-theme-color: #{$orange-color};
+  --global-hover-color: #{$orange-color};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
+  --global-footer-bg-color: #0b1120;
+  --global-footer-text-color: #cbd5e1;
+  --global-footer-link-color: #e5edf7;
+  --global-divider-color: rgba(226,232,240,.14);
   --global-card-bg-color: #{$grey-900};
+  --global-muted-bg-color: #1f2a44;
+  --global-surface-color: rgba(22,32,51,.86);
+  --global-shadow-color: rgba(0,0,0,.24);
+  --global-font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --global-heading-font-family: "Source Serif 4", Georgia, serif;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
