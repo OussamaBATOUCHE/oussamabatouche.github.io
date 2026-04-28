@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 Grant awarded: University of Helsinki (Doctoral School)
+🎉 Grant awarded by the University of Helsinki Doctoral School.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Completed Practical Deep Learning training on <a  target="_blank" rel="noopener noreferrer"  href='https://lumi-supercomputer.eu/'>LUMI supercomputer</a>.
+Completed practical deep learning training on the <a  target="_blank" rel="noopener noreferrer"  href='https://lumi-supercomputer.eu/'>LUMI supercomputer</a>.

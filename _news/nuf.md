@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending <a href='https://www.urologiyhdistys.fi/tapahtumat/nuf-2022/'>NUF 2022</a>, Helsinki, FI
+Attended <a href='https://www.urologiyhdistys.fi/tapahtumat/nuf-2022/'>NUF 2022</a> in Helsinki, Finland.

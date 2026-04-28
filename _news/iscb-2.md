@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Poster presentation at <a href='https://iscb2024.info/'>ISCB-45</a> conference, Thessaloniki, GR
+Poster presentation at the <a href='https://iscb2024.info/'>ISCB-45</a> conference in Thessaloniki, Greece.

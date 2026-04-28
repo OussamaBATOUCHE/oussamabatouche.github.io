@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href="#">🚨 02 Abstracts</a> accepted to <a href='https://baltic.uroweb.org/'>Baltic-24 EAU</a>
+<a href="#">🚨 Two abstracts</a> accepted at <a href='https://baltic.uroweb.org/'>Baltic-24 EAU</a>.

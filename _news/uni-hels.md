@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined <a href='https://helsinki.fi/en'>University of Helsinki</a> as Doctoral researcher
+Joined the <a href='https://helsinki.fi/en'>University of Helsinki</a> as a doctoral researcher.

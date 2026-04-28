@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending <a href='https://deeplearn.irdta.eu/2022su/'>DeepLearn</a> Summer school, Las Palmas de Gran Canaria, SP
+Attended the <a href='https://deeplearn.irdta.eu/2022su/'>DeepLearn</a> summer school in Las Palmas de Gran Canaria, Spain.
