@@ -28,4 +28,5 @@ Oussama's PhD research revolves around machine learning and statistical models f
   <span>Machine learning</span>
   <span>Statistics</span>
   <span>AI for healthcare</span>
+  <span>Software Engineering</span>
 </div>
