@@ -32,7 +32,37 @@
             <tbody>
               {% if content.institution %}
               <tr>
-                <td style="vertical-align: top; text-align: center;" class="institution"><i class="fa-solid fa-building-columns iconinstitution"></i></td>
+                <td class="institution institution-logo-cell">
+                  {% if content.logos %}
+                  <span class="cv-logo-stack">
+                    {% for logo in content.logos %}
+                    {% if logo.url %}
+                    <a class="cv-logo-frame{% if logo.class %} cv-logo-frame--{{ logo.class }}{% endif %}" href="{{ logo.url }}" target="_blank" rel="external nofollow noopener" aria-label="{% if logo.label %}Visit {{ logo.label }}{% else %}Visit organization website{% endif %}">
+                      <img src="{{ logo.image | prepend: 'assets/img/' | relative_url }}" alt="">
+                    </a>
+                    {% else %}
+                    <span class="cv-logo-frame{% if logo.class %} cv-logo-frame--{{ logo.class }}{% endif %}">
+                      <img src="{{ logo.image | prepend: 'assets/img/' | relative_url }}" alt="">
+                    </span>
+                    {% endif %}
+                    {% endfor %}
+                  </span>
+                  {% elsif content.logo %}
+                  <span class="cv-logo-stack">
+                    {% if content.logo_url %}
+                    <a class="cv-logo-frame" href="{{ content.logo_url }}" target="_blank" rel="external nofollow noopener" aria-label="Visit organization website">
+                      <img src="{{ content.logo | prepend: 'assets/img/' | relative_url }}" alt="">
+                    </a>
+                    {% else %}
+                    <span class="cv-logo-frame">
+                      <img src="{{ content.logo | prepend: 'assets/img/' | relative_url }}" alt="">
+                    </span>
+                    {% endif %}
+                  </span>
+                  {% else %}
+                  <i class="fa-solid fa-building-columns iconinstitution"></i>
+                  {% endif %}
+                </td>
                 <td class="institution">{{content.institution}}</td>
               </tr>
               {% endif %}

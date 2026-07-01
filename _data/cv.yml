@@ -8,11 +8,80 @@
     - name: Languages
       value: Arabic, English, French, Swedish
 
+- title: Experience
+  type: time_table
+  contents:
+    - title: Member of Technical Stuff
+      institution: <a href='https://Qutwo.com'>Qutwo</a>, Helsinki, Finland
+      logos:
+        - image: cv/logos/qutwo.png
+          url: https://qutwo.com/
+          class: qutwo
+      year: June 2026
+
+    - title: Doctoral researcher
+      institution: University of Helsinki, Finland
+      logos:
+        - image: cv/logos/university-helsinki.svg
+          url: https://www.helsinki.fi/en
+      year: 2022.2026
+
+    - title: Visiting Fellow
+      institution: Georgia Tech & Emory University, Atlanta, GA
+      logos:
+        - image: cv/logos/gatech.png
+          url: https://www.gatech.edu/
+        - image: cv/logos/emory.svg
+          url: https://www.emory.edu/
+      year: 2024
+      description:
+        - Research visit to <a href='https://scholar.google.com/citations?user=deMrrCkAAAAJ&hl=en'>Prof. Anant Madabhushi</a> <a href="https://med.emory.edu/departments/radiology/research/research-labs/madabhushi-lab/index.html">Lab</a>.
+        - We worked on a features extraction model for digital pathology images, for BCR prediction, treatment efficiency, and grade upgrading on prostatectomies for PCa.
+    
+    - title: Visiting Student
+      institution: King Abdullah University of Science and Technology "KAUST", Thuwal, Saudi Arabia
+      logos:
+        - image: cv/logos/kaust.svg
+          url: https://www.kaust.edu.sa/
+      year: 2024
+      description:
+        - Research visit to the <a href="https://cemse.kaust.edu.sa/bayescomp">Bayesian Computational Statistics & Modeling Group</a> lead by <a href='https://scholar.google.com/citations?user=VJOn_ZkAAAAJ&hl=en'>Prof. Håavard Rue</a>
+        - I was trained on how use INLA Joint library to build joint survival models. Supervised by prostdoctoral fellow <a href='https://scholar.google.com/citations?user=qAouGLIAAAAJ&hl=en'>Denis Rustand</a>.
+
+    - title: Research Assistant
+      institution: Aalto University, Espoo, Finland
+      logos:
+        - image: cv/logos/aalto.svg
+          url: https://www.aalto.fi/en
+      year: 2021
+      description: 
+        - I was involved in the South-East Finland – Russian cross-border collaboration project INFOSPHERE. My task included the development of a prototype of a face recognition software runnable on the cloud.
+
+    - title: Intern
+      institution: Aalto University, Espoo, Finland
+      logos:
+        - image: cv/logos/aalto.svg
+          url: https://www.aalto.fi/en
+      year: 2020
+      description: 
+        - During six months internship for my gradutation project, I worked on object detection based on real-time video streaming for autonomous vehicules.
+        - Supervisors <a href='https://scholar.google.fi/citations?user=o1Ap0TEAAAAJ&hl=en'>Prof. Tarik Taleb </a> and <a href='https://www.researchgate.net/profile/Oussama-Marai'>Dr. Oussama El Marai </a>
+
+    - title: Software Engineer
+      institution: i2b SPA, Algiers, Algeria
+      logos:
+        - image: cv/logos/i2b.png
+          url: https://i2b-dz.com/
+      year: 2019.2026
+
 - title: Education
   type: time_table
   contents:
     - title: PhD
       institution: University of Helsinki, Helsinki, Finland
+      logos:
+        - image: cv/logos/university-helsinki.svg
+          url: https://www.helsinki.fi/en
       year: In progress
       description:
         # - I'm developing computational methods to avoid <a href='https://en.wikipedia.org/wiki/Prostate_cancer'>Prostate cancer</a> overtreatment and overdiagnosis, using Helsinki University Hospital data.
@@ -23,67 +92,19 @@
             - Clinical data mining 
     - title: Master's
       institution: University of Science and Technology Houari Boumediene
+      logos:
+        - image: cv/logos/usthb.png
+          url: https://www.usthb.dz/
       year: 2020
       description:
         - Master's of Data Science
         - Major in "Bioinformatics"
     - title: Bachelor's
       institution: University of Science and Technology Houari Boumediene
+      logos:
+        - image: cv/logos/usthb.png
+          url: https://www.usthb.dz/
       year: 2018
       description:
         - Bachelor's of Mathematics and Computer Science
         - Major in "Information Systems and Software Engineering"
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Doctoral researcher
-      institution: University of Helsinki, Finland
-      year: 2022 - NOW
-
-    - title: Visiting Fellow
-      institution: Georgia Tech & Emory University, Atlanta, GA
-      year: May 2024
-      description:
-        - Research visit to <a href='https://scholar.google.com/citations?user=deMrrCkAAAAJ&hl=en'>Prof. Anant Madabhushi</a> <a href="https://med.emory.edu/departments/radiology/research/research-labs/madabhushi-lab/index.html">Lab</a>.
-        - We worked on a features extraction model for digital pathology images, for BCR prediction, treatment efficiency, and grade upgrading on prostatectomies for PCa.
-    
-    - title: Visiting Student
-      institution: King Abdullah University of Science and Technology "KAUST", Thuwal, Saudi Arabia
-      year: Feb 2024
-      description:
-        - Research visit to the <a href="https://cemse.kaust.edu.sa/bayescomp">Bayesian Computational Statistics & Modeling Group</a> lead by <a href='https://scholar.google.com/citations?user=VJOn_ZkAAAAJ&hl=en'>Prof. Håavard Rue</a>
-        - I was trained on how use INLA Joint library to build joint survival models. Supervised by prostdoctoral fellow <a href='https://scholar.google.com/citations?user=qAouGLIAAAAJ&hl=en'>Denis Rustand</a>.
-
-    - title: Research Assistant
-      institution: Aalto University, Espoo, Finland
-      year: 2021
-      description: 
-        - I was involved in the South-East Finland – Russian cross-border collaboration project INFOSPHERE. My task included the development of a prototype of a face recognition software runnable on the cloud.
-
-    - title: Intern
-      institution: Aalto University, Espoo, Finland
-      year: 2020
-      description: 
-        - During six months internship for my gradutation project, I worked on object detection based on real-time video streaming for autonomous vehicules.
-        - Supervisors <a href='https://scholar.google.fi/citations?user=o1Ap0TEAAAAJ&hl=en'>Prof. Tarik Taleb </a> and <a href='https://www.researchgate.net/profile/Oussama-Marai'>Dr. Oussama El Marai </a>
-
-    - title: Software Engineer
-      institution: i2b SPA, Algiers, Algeria
-      year: 2019
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Data mining
-      items: 
-        - Clinical data mining
-        - EHR imputation
-    - title: AI and Machine learning 
-      items:
-        - Supervised/Unsupervised learning
-        - Multi-Models
-    - title: Statistical modeling
-      items:
-        - Survival analysis
-        - Joint models

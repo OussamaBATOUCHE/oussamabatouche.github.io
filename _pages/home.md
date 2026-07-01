@@ -2,9 +2,9 @@
 layout: about
 title: About
 permalink: /
-description: Oussama Batouche is a data scientist at HUCC and a PhD candidate at the University of Helsinki working on AI, machine learning, digital pathology, and prostate cancer research.
-keywords: Oussama Batouche, Abderrahim Oussama Batouche, data scientist, University of Helsinki, HUCC, LinkedIn, Google Scholar, ORCID, GitHub, prostate cancer, digital pathology, machine learning, AI, LLM, RAG
-subtitle: Data Scientist | PhD Candidate | AI for Healthcare
+description: About Oussama Batouche, MTS at Qutwo working on AI for the Quantum era.
+keywords: Oussama Batouche, MTS, Qutwo, Quantum, data scientist, HUCC, University of Helsinki, AI, digital pathology, prostate cancer, Google Scholar, LinkedIn, ORCID, LLM, RAG, machine learning, data science
+subtitle: MTS @ Qutwo
 
 profile:
   align: right
@@ -19,7 +19,20 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Oussama Batouche is a data scientist at <a href='https://www.hucc.fi/'>HUCC</a> and a PhD candidate at the <a href='https://www.helsinki.fi/en'>University of Helsinki</a>. His work focuses on developing computational methods to analyse and improve prostate cancer care using AI, machine learning, statistics, digital pathology, and real-world clinical data.
+Oussama is a Member of Technical Stuff at <a href='https://www.QuTwo.fi/'>QuTwo</a>. At this role, he is building the next generation AI for the Quantum era.
+
+Previously, Oussama worked as a data scientist at <a href='https://www.hucc.fi/'>HUCC</a> and did his PhD at the <a href='https://www.helsinki.fi/en'>University of Helsinki</a>. His PhD focuses on developing computational methods to analyse and improve prostate cancer care using AI and machine learning, statistics, digital pathology, and real-world clinical data.
+
+<div class="research-tags" aria-label="Research interests">
+  <span>Artificial intelligence</span>
+  <span>Machine learning</span>
+  <span>Statistics</span>
+  <span>AI for healthcare</span>
+  <span>Software Engineering</span>
+</div>
+
+<!-- Before Qutwo -->
+<!-- Oussama Batouche is a data scientist at <a href='https://www.hucc.fi/'>HUCC</a> and a PhD candidate at the <a href='https://www.helsinki.fi/en'>University of Helsinki</a>. His work focuses on developing computational methods to analyse and improve prostate cancer care using AI, machine learning, statistics, digital pathology, and real-world clinical data.
 
 Oussama's PhD research revolves around machine learning and statistical models for profiling prostate cancer and predicting clinical outcomes, with the broader aim of reducing unnecessary treatment and overdiagnosis.
 
@@ -29,4 +42,4 @@ Oussama's PhD research revolves around machine learning and statistical models f
   <span>Statistics</span>
   <span>AI for healthcare</span>
   <span>Software Engineering</span>
-</div>
+</div> -->

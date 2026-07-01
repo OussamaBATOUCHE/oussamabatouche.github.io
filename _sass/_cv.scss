@@ -53,6 +53,94 @@ i.iconinstitution {
   margin-right: 0.3rem;
 }
 
+td.institution-logo-cell {
+  min-width: 3.45rem;
+  padding-right: 0.7rem;
+  text-align: center;
+  vertical-align: top;
+  width: 3.45rem;
+}
+
+.cv-logo-stack {
+  align-items: center;
+  display: inline-flex;
+  min-height: 2.25rem;
+  padding-top: 0.05rem;
+}
+
+.cv-logo-frame {
+  align-items: center;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  box-shadow: 0 8px 18px var(--global-shadow-color);
+  color: inherit;
+  display: inline-flex;
+  height: 2.15rem;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0.24rem;
+  position: relative;
+  text-decoration: none;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+  width: 3.05rem;
+
+  & + .cv-logo-frame {
+    margin-left: -0.58rem;
+  }
+
+  &::after {
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.42), transparent);
+    content: "";
+    height: 140%;
+    left: -130%;
+    position: absolute;
+    top: -20%;
+    transform: rotate(16deg);
+    transition: left 0.28s ease;
+    width: 80%;
+  }
+
+  &:hover,
+  &:focus-visible {
+    border-color: rgba(242, 145, 5, 0.44);
+    box-shadow: 0 12px 24px var(--global-shadow-color);
+    outline: none;
+    text-decoration: none;
+    transform: translateY(-3px) scale(1.04);
+    z-index: 2;
+  }
+
+  &:hover::after,
+  &:focus-visible::after {
+    left: 135%;
+  }
+
+  img {
+    display: block;
+    height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    width: 100%;
+  }
+
+  &--qutwo {
+    background: #0067b1;
+    border-color: rgba(0, 103, 177, 0.28);
+    box-shadow: 0 10px 22px rgba(0, 103, 177, 0.22);
+
+    &:hover,
+    &:focus-visible {
+      border-color: rgba(0, 103, 177, 0.58);
+      box-shadow: 0 14px 28px rgba(0, 103, 177, 0.28);
+    }
+
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+}
+
 i.icondepartment {
   color: var(--global-theme-color);
   font-size: 0.8rem;

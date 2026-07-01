@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Visited <a href="https://vsrp.kaust.edu.sa/">KAUST</a> for training on INLA and joint modeling in Thuwal, Saudi Arabia.
+Visited <a href="https://vsrp.kaust.edu.sa/"  target="_blank" rel="noopener noreferrer" >KAUST</a> for training on INLA and joint modeling in Thuwal, Saudi Arabia.
