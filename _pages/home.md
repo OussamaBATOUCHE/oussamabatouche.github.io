@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Oussama is a Member of Technical Stuff at <a href='https://www.QuTwo.fi/'>QuTwo</a> working on the next generation AI for the Quantum era.
+Oussama is a Member of Technical Stuff at <a href='https://www.QuTwo.com/'>QuTwo</a> working on the next generation AI for the Quantum era.
 
 Previously, Oussama worked as a data scientist at <a href='https://www.hucc.fi/'>HUCC</a> and did his PhD at the <a href='https://www.helsinki.fi/en'>University of Helsinki</a>. His PhD focuses on developing computational methods to analyse and improve prostate cancer care using AI and machine learning, statistics, digital pathology, and real-world clinical data.
 
