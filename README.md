@@ -1,3 +1,3 @@
 # Personal website
 
-[Www.OussamaBatouche.Com](https://oussamabatouche.com/)
+[www.OussamaBatouche.com](https://oussamabatouche.com/)
