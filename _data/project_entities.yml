@@ -1,0 +1,29 @@
+- name: University of Helsinki
+  country: Finland
+  logo: helsinki.png
+  url: https://www.helsinki.fi
+- name: Emory University
+  country: United States
+  logo: emory.png
+  url: https://www.emory.edu
+- name: KAUST
+  country: Saudi Arabia
+  logo: kaust.png
+  url: https://www.kaust.edu.sa
+- name: i2b SPA
+  country: Algeria
+  logo: i2b.png
+  url: https://www.i2b-dz.com
+- name: Junction
+  country: Finland
+  logo: junction-wordmark.png
+  logo_class: institution-logo-image--wide
+  url: https://www.hackjunction.com
+- name: Badir Program for Technology Incubators and Accelerators
+  country: Saudi Arabia
+  logo: badir.webp
+  url: https://saudipedia.com/article/10371/economy-and-business/business/badir-program-for-technology-incubators-and-accelerators
+- name: Saudi Federation for Cybersecurity, Programming and Drones
+  country: Saudi Arabia
+  logo: safcsp.png
+  url: https://safcsp.org.sa/en/

@@ -17,10 +17,17 @@
         - image: cv/logos/qutwo.png
           url: https://qutwo.com/
           class: qutwo
-      year: June 2026
+      year: 2026
 
-    - title: Doctoral researcher
+    - title: Associated Researcher
       institution: University of Helsinki, Finland
+      logos:
+        - image: cv/logos/university-helsinki.svg
+          url: https://www.helsinki.fi/en
+      year: 2026
+
+    - title: Data Scientist
+      institution: HUCC, University of Helsinki, Finland
       logos:
         - image: cv/logos/university-helsinki.svg
           url: https://www.helsinki.fi/en
@@ -82,7 +89,7 @@
       logos:
         - image: cv/logos/university-helsinki.svg
           url: https://www.helsinki.fi/en
-      year: In progress
+      year: 2026
       description:
         # - I'm developing computational methods to avoid <a href='https://en.wikipedia.org/wiki/Prostate_cancer'>Prostate cancer</a> overtreatment and overdiagnosis, using Helsinki University Hospital data.
         - title: Computational methods for <a href='https://en.wikipedia.org/wiki/Prostate_cancer'>Prostate Cancer</a> profiling and outcome prediction.

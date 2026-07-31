@@ -1,0 +1,27 @@
+{% assign marquee_items = site.data.institutions %}
+{% if include.items %}
+  {% assign marquee_items = include.items %}
+{% endif %}
+{% assign marquee_label = include.label | default: "Research collaborators" %}
+{% assign marquee_aria_label = include.aria_label | default: marquee_label %}
+
+<section class="institution-marquee-section" aria-label="{{ marquee_aria_label }}">
+  <p class="institution-marquee-label">{{ marquee_label }}</p>
+  <div class="institution-marquee">
+    <div class="institution-marquee-track">
+      {% for copy in (1..2) %}
+      <div class="institution-logo-set"{% if copy == 2 %} aria-hidden="true"{% endif %}>
+        {% for institution in marquee_items %}
+        <a class="institution-logo" href="{{ institution.url }}" target="_blank" rel="noopener noreferrer"{% if copy == 1 %} aria-label="{{ institution.name }}, {{ institution.country }}"{% else %} tabindex="-1"{% endif %}>
+          <img{% if institution.logo_class %} class="{{ institution.logo_class }}"{% endif %} src="{{ '/assets/img/institutions/' | append: institution.logo | relative_url }}" alt="{% if copy == 1 %}{{ institution.name }}{% endif %}">
+          <span class="institution-logo-details">
+            <span class="institution-logo-name">{{ institution.name }}</span>
+            <span class="institution-logo-country">{{ institution.country }}</span>
+          </span>
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

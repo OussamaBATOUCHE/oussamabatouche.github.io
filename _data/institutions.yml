@@ -1,0 +1,44 @@
+- name: University of Helsinki
+  country: Finland
+  logo: helsinki.png
+  url: https://www.helsinki.fi
+- name: HUS Helsinki University Hospital
+  country: Finland
+  logo: hus.svg
+  url: https://www.hus.fi/en
+- name: Aalto University
+  country: Finland
+  logo: aalto.png
+  url: https://www.aalto.fi
+- name: Emory University
+  country: United States
+  logo: emory.png
+  url: https://www.emory.edu
+- name: Memorial Sloan Kettering Cancer Center
+  country: United States
+  logo: mskcc.svg
+  url: https://www.mskcc.org
+- name: Georgia Tech
+  country: United States
+  logo: gatech.png
+  url: https://www.gatech.edu
+- name: KAUST
+  country: Saudi Arabia
+  logo: kaust.png
+  url: https://www.kaust.edu.sa
+- name: University of Oxford
+  country: United Kingdom
+  logo: oxford.png
+  url: https://www.ox.ac.uk
+- name: University of Cambridge
+  country: United Kingdom
+  logo: cambridge.png
+  url: https://www.cam.ac.uk
+- name: Université de Bordeaux
+  country: France
+  logo: bordeaux.png
+  url: https://www.u-bordeaux.fr
+- name: Shin-yurigaoka General Hospital
+  country: Japan
+  logo: shinyuri.png
+  url: https://www.shinyuri-hospital.com

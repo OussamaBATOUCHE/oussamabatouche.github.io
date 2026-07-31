@@ -141,6 +141,10 @@ td.institution-logo-cell {
   }
 }
 
+html[data-theme='dark'] .cv-logo-frame:not(.cv-logo-frame--qutwo) {
+  background: #fff;
+}
+
 i.icondepartment {
   color: var(--global-theme-color);
   font-size: 0.8rem;

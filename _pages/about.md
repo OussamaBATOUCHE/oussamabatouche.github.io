@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
 
 Oussama is a Member of Technical Staff at <a href='https://www.QuTwo.com/'>QuTwo</a> working on the next-generation AI for the Quantum era.
 
-Previously, Oussama worked as a data scientist at <a href='https://www.hucc.fi/'>HUCC</a> and did his PhD at the <a href='https://www.helsinki.fi/en'>University of Helsinki</a>. His PhD focuses on developing computational methods to analyse and improve prostate cancer care using AI and machine learning, statistics, digital pathology, and real-world clinical data.
+Previously, Oussama worked as a data scientist at <a href="https://www.hucc.fi/">HUCC</a> and as a Senior Software Engineer at <a href="https://www.i2b-dz.com/">i2b</a>. He completed his PhD at the <a href="https://www.helsinki.fi/en">University of Helsinki</a>, where his research focused on artificial intelligence for medical informatics.
 
 <div class="research-tags" aria-label="Research interests">
   <span>Artificial intelligence</span>

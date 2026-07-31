@@ -10,6 +10,8 @@ display_categories: [Research, Software & Web dev, Hackathons]
 horizontal: false
 ---
 
+{% include institution_marquee.html items=site.data.project_entities label="Entities I worked with" aria_label="Entities I worked with" %}
+
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
