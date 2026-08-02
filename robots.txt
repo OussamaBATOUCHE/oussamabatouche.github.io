@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://oussamabatouche.github.io/sitemap.xml
+Sitemap: https://oussamabatouche.com/sitemap.xml
